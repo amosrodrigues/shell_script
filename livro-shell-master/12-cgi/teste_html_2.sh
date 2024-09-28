@@ -10,5 +10,5 @@ hora_atual=$(date +%X)
 x=2
 y=3
 
-echo "<P>Agora s„o $hora_atual</P>"
+echo "<P>Agora s√£o $hora_atual</P>"
 echo "Se eu somar <U>$x</U> com <U>$y</U>, fico com <U>$((x+y))</U>."

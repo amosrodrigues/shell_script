@@ -1,17 +1,17 @@
 #!/bin/bash
 # som.sh
-# Demonstração de mudança da freqüência do Speaker
+# DemonstraÃ§Ã£o de mudanÃ§a da freqÃ¼Ãªncia do Speaker
 # Dica: Digite Ctrl+C para finalizar.
 #
 
-# Restaura o bipe padrão (f=750, t=100ms)
+# Restaura o bipe padrÃ£o (f=750, t=100ms)
 echo -e '\033[10;750]\033[11;100]'
 
-freq=0                          # freqüência inicial
+freq=0                          # freqÃ¼Ãªncia inicial
 while : ; do                    # loop infinito
-	freq=$((freq+1))                # aumenta freqüência
-	echo -e "\033[10;$freq]"        # muda freqüência no Speaker
-	echo    "frequência=$freq"      # mostra freqüência atual
+	freq=$((freq+1))                # aumenta freqÃ¼Ãªncia
+	echo -e "\033[10;$freq]"        # muda freqÃ¼Ãªncia no Speaker
+	echo    "frequÃªncia=$freq"      # mostra freqÃ¼Ãªncia atual
 	echo -e '\a'                    # emite um bipe
 	usleep 100                      # espera 100us
 done

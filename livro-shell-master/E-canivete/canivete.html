@@ -2,28 +2,28 @@
 <HTML>
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.sf.net">
-<TITLE>Canivete SuÌÁo do Shell (bash)</TITLE>
+<TITLE>Canivete Su√≠√ßo do Shell (bash)</TITLE>
 </HEAD>
 <BODY style="margin:2em 3em">
 
 <DIV CLASS="header" ID="header">
-<H1>Canivete SuÌÁo do Shell (bash)</H1>
+<H1>Canivete Su√≠√ßo do Shell (bash)</H1>
 </DIV>
 
 <DIV CLASS="body" ID="body">
 <P>
-(<A HREF="http://aurelio.net/canivete">link para a vers„o original</A>)
+(<A HREF="http://aurelio.net/canivete">link para a vers√£o original</A>)
 </P>
 <HR NOSHADE SIZE=1>
 <DIV CLASS="toc" ID="toc">
   <OL>
   <LI><A HREF="#operadores">Operadores</A>
   <LI><A HREF="#redir">Redirecionamento</A>
-  <LI><A HREF="#variaveis">Vari·veis especiais</A>
-  <LI><A HREF="#expansao">Expans„o de vari·veis</A>
+  <LI><A HREF="#variaveis">Vari√°veis especiais</A>
+  <LI><A HREF="#expansao">Expans√£o de vari√°veis</A>
   <LI><A HREF="#blocos">Blocos e agrupamentos</A>
   <LI><A HREF="#ifwhilefor">if, for, select, while, until, case</A>
-  <LI><A HREF="#test">OpÁıes do comando test ou [</A>
+  <LI><A HREF="#test">Op√ß√µes do comando test ou [</A>
   <LI><A HREF="#prompt">Escapes especiais para usar no prompt (PS1)</A>
   <LI><A HREF="#echo">Escapes reconhecidos pelo comando echo</A>
   <LI><A HREF="#date">Formatadores do comando date</A>
@@ -32,12 +32,12 @@
   <LI><A HREF="#glob">Curingas para nomes de arquivo (glob)</A>
   <LI><A HREF="#case">Curingas para os itens do comando case</A>
   <LI><A HREF="#sinais">Sinais para usar com trap/kill/killall</A>
-  <LI><A HREF="#exitcode">CÛdigos de retorno de comandos</A>
-  <LI><A HREF="#cores">CÛdigos de cores (ANSI)</A>
-  <LI><A HREF="#metacaracteres">Os metacaracteres das expressıes regulares</A>
-  <LI><A HREF="#metadif">Metacaracteres que s„o diferentes nos aplicativos</A>
-  <LI><A HREF="#ascii">Caracteres ASCII imprimÌveis (ISO-8859-1) - texto</A>
-  <LI><A HREF="#codigos">CÛdigos prontos para copiar e colar</A>
+  <LI><A HREF="#exitcode">C√≥digos de retorno de comandos</A>
+  <LI><A HREF="#cores">C√≥digos de cores (ANSI)</A>
+  <LI><A HREF="#metacaracteres">Os metacaracteres das express√µes regulares</A>
+  <LI><A HREF="#metadif">Metacaracteres que s√£o diferentes nos aplicativos</A>
+  <LI><A HREF="#ascii">Caracteres ASCII imprim√≠veis (ISO-8859-1) - texto</A>
+  <LI><A HREF="#codigos">C√≥digos prontos para copiar e colar</A>
   <LI><A HREF="#emacs">Atalhos da linha de comando (set -o emacs)</A>
   <LI><A HREF="#ferramentas">A caixa de ferramentas do shelleiro</A>
   </OL>
@@ -48,130 +48,130 @@
 <hr><H2>1. Operadores</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
-<TH align="left" COLSPAN="2">Operadores AritmÈticos</TH>
+<TH align="left" COLSPAN="2">Operadores Aritm√©ticos</TH>
 <TH align="left" WIDTH=50></TH>
 <TH align="left" COLSPAN="2">Operadores Relacionais</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>+</CODE></TD>
-<TD>AdiÁ„o</TD>
+<TD>Adi√ß√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>==</CODE></TD>
 <TD>Igual</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>-</CODE></TD>
-<TD>SubtraÁ„o</TD>
+<TD>Subtra√ß√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>!=</CODE></TD>
 <TD>Diferente</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>*</CODE></TD>
-<TD>MultiplicaÁ„o</TD>
+<TD>Multiplica√ß√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&gt;</CODE></TD>
 <TD>Maior</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>/</CODE></TD>
-<TD>Divis„o</TD>
+<TD>Divis√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&gt;=</CODE></TD>
 <TD>Maior ou Igual</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%</CODE></TD>
-<TD>MÛdulo</TD>
+<TD>M√≥dulo</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&lt;</CODE></TD>
 <TD>Menor</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>**</CODE></TD>
-<TD>ExponenciaÁ„o</TD>
+<TD>Exponencia√ß√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&lt;=</CODE></TD>
 <TD>Menor ou Igual</TD>
 </TR>
 <TR>
-<TH align="left" COLSPAN="2">Operadores de AtribuiÁ„o</TH>
+<TH align="left" COLSPAN="2">Operadores de Atribui√ß√£o</TH>
 <TH align="left"></TH>
 <TH align="left" COLSPAN="2">Operadores de BIT</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>=</CODE></TD>
-<TD>Atribui valor a uma vari·vel</TD>
+<TD>Atribui valor a uma vari√°vel</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&lt;&lt;</CODE></TD>
-<TD>Deslocamento ‡ esquerda</TD>
+<TD>Deslocamento √† esquerda</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>+=</CODE></TD>
-<TD>Incrementa a vari·vel por uma constante</TD>
+<TD>Incrementa a vari√°vel por uma constante</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&gt;&gt;</CODE></TD>
-<TD>Deslocamento ‡ direita</TD>
+<TD>Deslocamento √† direita</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>-=</CODE></TD>
-<TD>Decrementa a vari·vel por uma constante</TD>
+<TD>Decrementa a vari√°vel por uma constante</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&amp;</CODE></TD>
 <TD>E de bit (AND)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>*=</CODE></TD>
-<TD>Multiplica a vari·vel por uma constante</TD>
+<TD>Multiplica a vari√°vel por uma constante</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>|</CODE></TD>
 <TD>OU de bit (OR)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>/=</CODE></TD>
-<TD>Divide a vari·vel por uma constante</TD>
+<TD>Divide a vari√°vel por uma constante</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>^</CODE></TD>
 <TD>OU exclusivo de bit (XOR)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%=</CODE></TD>
-<TD>Resto da divis„o por uma constante</TD>
+<TD>Resto da divis√£o por uma constante</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>~</CODE></TD>
-<TD>NegaÁ„o de bit</TD>
+<TD>Nega√ß√£o de bit</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>++</CODE></TD>
-<TD>Incrementa em 1 o valor da vari·vel</TD>
+<TD>Incrementa em 1 o valor da vari√°vel</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>!</CODE></TD>
-<TD>N√O de bit (NOT)</TD>
+<TD>N√ÉO de bit (NOT)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>--</CODE></TD>
-<TD>Decrementa em 1 o valor da vari·vel</TD>
+<TD>Decrementa em 1 o valor da vari√°vel</TD>
 <TD></TD>
 <TD></TD>
 </TR>
 <TR>
-<TH align="left" COLSPAN="2">Operadores LÛgicos</TH>
+<TH align="left" COLSPAN="2">Operadores L√≥gicos</TH>
 <TH align="left"></TH>
-<TH align="left" COLSPAN="2">Operadores de BIT (atribuiÁ„o)</TH>
+<TH align="left" COLSPAN="2">Operadores de BIT (atribui√ß√£o)</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&amp;&amp;</CODE></TD>
-<TD>E lÛgico (AND)</TD>
+<TD>E l√≥gico (AND)</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&lt;&lt;=</CODE></TD>
-<TD>Deslocamento ‡ esquerda</TD>
+<TD>Deslocamento √† esquerda</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>||</CODE></TD>
-<TD>OU lÛgico (OR)</TD>
+<TD>OU l√≥gico (OR)</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>&gt;&gt;=</CODE></TD>
-<TD>Deslocamento ‡ direita</TD>
+<TD>Deslocamento √† direita</TD>
 </TR>
 <TR>
 <TD></TD>
@@ -201,47 +201,47 @@
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Operador</TH>
-<TH align="left">AÁ„o</TH>
+<TH align="left">A√ß√£o</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&lt;</CODE></TD>
-<TD>Redireciona a entrada padr„o (STDIN)</TD>
+<TD>Redireciona a entrada padr√£o (STDIN)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&gt;</CODE></TD>
-<TD>Redireciona a saÌda padr„o (STDOUT)</TD>
+<TD>Redireciona a sa√≠da padr√£o (STDOUT)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>2&gt;</CODE></TD>
-<TD>Redireciona a saÌda de erro (STDERR)</TD>
+<TD>Redireciona a sa√≠da de erro (STDERR)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&gt;&gt;</CODE></TD>
-<TD>Redireciona a saÌda padr„o, anexando</TD>
+<TD>Redireciona a sa√≠da padr√£o, anexando</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>2&gt;&gt;</CODE></TD>
-<TD>Redireciona a saÌda de erro, anexando</TD>
+<TD>Redireciona a sa√≠da de erro, anexando</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>|</CODE></TD>
-<TD>Conecta a saÌda padr„o com a entrada padr„o de outro comando</TD>
+<TD>Conecta a sa√≠da padr√£o com a entrada padr√£o de outro comando</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>2&gt;&amp;1</CODE></TD>
-<TD>Conecta a saÌda de erro na saÌda padr„o</TD>
+<TD>Conecta a sa√≠da de erro na sa√≠da padr√£o</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&gt;&amp;2</CODE></TD>
-<TD>Conecta a saÌda padr„o na saÌda de erro</TD>
+<TD>Conecta a sa√≠da padr√£o na sa√≠da de erro</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&gt;&amp;-</CODE></TD>
-<TD>Fecha a saÌda padr„o</TD>
+<TD>Fecha a sa√≠da padr√£o</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>2&gt;&amp;-</CODE></TD>
-<TD>Fecha a saÌda de erro</TD>
+<TD>Fecha a sa√≠da de erro</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>3&lt;&gt;arq</CODE></TD>
@@ -249,117 +249,117 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&lt;&lt;FIM</CODE></TD>
-<TD>Alimenta a entrada padr„o (Here Document)</TD>
+<TD>Alimenta a entrada padr√£o (Here Document)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&lt;&lt;-FIM</CODE></TD>
-<TD>Alimenta a entrada padr„o, cortando TABs</TD>
+<TD>Alimenta a entrada padr√£o, cortando TABs</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&lt;(cmd)</CODE></TD>
-<TD>A saÌda do comando 'cmd' È um arquivo: diff &lt;(cmd1) &lt;(cmd2)</TD>
+<TD>A sa√≠da do comando 'cmd' √© um arquivo: diff &lt;(cmd1) &lt;(cmd2)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>&gt;(cmd)</CODE></TD>
-<TD>A entrada do comando 'cmd' È um arquivo: tar cf &gt;(bzip2 -c &gt;file.tbz) $dir</TD>
+<TD>A entrada do comando 'cmd' √© um arquivo: tar cf &gt;(bzip2 -c &gt;file.tbz) $dir</TD>
 </TR>
 </TABLE>
 
 <A NAME="variaveis"></A>
-<hr><H2>3. Vari·veis especiais</H2>
+<hr><H2>3. Vari√°veis especiais</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
-<TH align="left">Vari·vel</TH>
-<TH align="left">Par‚metros Posicionais</TH>
+<TH align="left">Vari√°vel</TH>
+<TH align="left">Par√¢metros Posicionais</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$0</CODE></TD>
-<TD>Par‚metro n˙mero 0 (nome do comando ou funÁ„o)</TD>
+<TD>Par√¢metro n√∫mero 0 (nome do comando ou fun√ß√£o)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$1</CODE></TD>
-<TD>Par‚metro n˙mero 1 (da linha de comando ou funÁ„o)</TD>
+<TD>Par√¢metro n√∫mero 1 (da linha de comando ou fun√ß√£o)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>...</CODE></TD>
-<TD>Par‚metro n˙mero N ...</TD>
+<TD>Par√¢metro n√∫mero N ...</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$9</CODE></TD>
-<TD>Par‚metro n˙mero 9 (da linha de comando ou funÁ„o)</TD>
+<TD>Par√¢metro n√∫mero 9 (da linha de comando ou fun√ß√£o)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>${10}</CODE></TD>
-<TD>Par‚metro n˙mero 10 (da linha de comando ou funÁ„o)</TD>
+<TD>Par√¢metro n√∫mero 10 (da linha de comando ou fun√ß√£o)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>...</CODE></TD>
-<TD>Par‚metro n˙mero NN ...</TD>
+<TD>Par√¢metro n√∫mero NN ...</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$#</CODE></TD>
-<TD>N˙mero total de par‚metros da linha de comando ou funÁ„o</TD>
+<TD>N√∫mero total de par√¢metros da linha de comando ou fun√ß√£o</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$*</CODE></TD>
-<TD>Todos os par‚metros, como uma string ˙nica</TD>
+<TD>Todos os par√¢metros, como uma string √∫nica</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$@</CODE></TD>
-<TD>Todos os par‚metros, como v·rias strings protegidas</TD>
+<TD>Todos os par√¢metros, como v√°rias strings protegidas</TD>
 </TR>
 <TR>
-<TH align="left">Vari·vel</TH>
-<TH align="left">Miscel‚nia</TH>
+<TH align="left">Vari√°vel</TH>
+<TH align="left">Miscel√¢nia</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$$</CODE></TD>
-<TD>N˙mero PID do processo atual (do prÛprio script)</TD>
+<TD>N√∫mero PID do processo atual (do pr√≥prio script)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$!</CODE></TD>
-<TD>N˙mero PID do ˙ltimo job em segundo plano</TD>
+<TD>N√∫mero PID do √∫ltimo job em segundo plano</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$_</CODE></TD>
-<TD>⁄ltimo argumento do ˙ltimo comando executado</TD>
+<TD>√öltimo argumento do √∫ltimo comando executado</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$?</CODE></TD>
-<TD>CÛdigo de retorno do ˙ltimo comando executado</TD>
+<TD>C√≥digo de retorno do √∫ltimo comando executado</TD>
 </TR>
 </TABLE>
 
 <A NAME="expansao"></A>
-<hr><H2>4. Expans„o de vari·veis</H2>
+<hr><H2>4. Expans√£o de vari√°veis</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Sintaxe</TH>
-<TH align="left">Expans„o Condicional</TH>
+<TH align="left">Expans√£o Condicional</TH>
 </TR>
 <TR>
 <TD><CODE>${var:-texto}</CODE></TD>
-<TD>Se var n„o est· definida, retorna 'texto'</TD>
+<TD>Se var n√£o est√° definida, retorna 'texto'</TD>
 </TR>
 <TR>
 <TD><CODE>${var:=texto}</CODE></TD>
-<TD>Se var n„o est· definida, defina-a com 'texto'</TD>
+<TD>Se var n√£o est√° definida, defina-a com 'texto'</TD>
 </TR>
 <TR>
 <TD><CODE>${var:?texto}</CODE></TD>
-<TD>Se var n„o est· definida, retorna o erro 'texto'</TD>
+<TD>Se var n√£o est√° definida, retorna o erro 'texto'</TD>
 </TR>
 <TR>
 <TD><CODE>${var:+texto}</CODE></TD>
-<TD>Se var est· definida, retorna 'texto', sen„o retorna o vazio</TD>
+<TD>Se var est√° definida, retorna 'texto', sen√£o retorna o vazio</TD>
 </TR>
 <TR>
 <TH align="left">Sintaxe</TH>
-<TH align="left">Expans„o de Strings</TH>
+<TH align="left">Expans√£o de Strings</TH>
 </TR>
 <TR>
 <TD><CODE>${var}</CODE></TD>
-<TD>… o mesmo que $var, porÈm n„o ambÌguo</TD>
+<TD>√â o mesmo que $var, por√©m n√£o amb√≠guo</TD>
 </TR>
 <TR>
 <TD><CODE>${#var}</CODE></TD>
@@ -367,27 +367,27 @@
 </TR>
 <TR>
 <TD><CODE>${!var}</CODE></TD>
-<TD>Executa o conte˙do de $var (igual 'eval \$$var')</TD>
+<TD>Executa o conte√∫do de $var (igual 'eval \$$var')</TD>
 </TR>
 <TR>
 <TD><CODE>${!texto*}</CODE></TD>
-<TD>Retorna os nomes de vari·veis comeÁadas por 'texto'</TD>
+<TD>Retorna os nomes de vari√°veis come√ßadas por 'texto'</TD>
 </TR>
 <TR>
 <TD><CODE>${var:N}</CODE></TD>
-<TD>Retorna o texto ‡ partir da posiÁ„o 'N'</TD>
+<TD>Retorna o texto √† partir da posi√ß√£o 'N'</TD>
 </TR>
 <TR>
 <TD><CODE>${var:N:tam}</CODE></TD>
-<TD>Retorna 'tam' caracteres ‡ partir da posiÁ„o 'N'</TD>
+<TD>Retorna 'tam' caracteres √† partir da posi√ß√£o 'N'</TD>
 </TR>
 <TR>
 <TD><CODE>${var#texto}</CODE></TD>
-<TD>Corta 'texto' do inÌcio da string</TD>
+<TD>Corta 'texto' do in√≠cio da string</TD>
 </TR>
 <TR>
 <TD><CODE>${var##texto}</CODE></TD>
-<TD>Corta 'texto' do inÌcio da string (* guloso)</TD>
+<TD>Corta 'texto' do in√≠cio da string (* guloso)</TD>
 </TR>
 <TR>
 <TD><CODE>${var%texto}</CODE></TD>
@@ -407,7 +407,7 @@
 </TR>
 <TR>
 <TD><CODE>${var/#texto/novo}</CODE></TD>
-<TD>Se a string comeÁar com 'texto', substitui 'texto' por 'novo'</TD>
+<TD>Se a string come√ßar com 'texto', substitui 'texto' por 'novo'</TD>
 </TR>
 <TR>
 <TD><CODE>${var/%texto/novo}</CODE></TD>
@@ -420,7 +420,7 @@
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Sintaxe</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 <TH align="left">Exemplo</TH>
 </TR>
 <TR>
@@ -430,7 +430,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>'...'</CODE></TD>
-<TD>Protege uma string completamente (nenhum caractere È especial)</TD>
+<TD>Protege uma string completamente (nenhum caractere √© especial)</TD>
 <TD ALIGN="center">'abc'</TD>
 </TR>
 <TR>
@@ -460,22 +460,22 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>((...))</CODE></TD>
-<TD>Testa uma operaÁ„o aritmÈtica, retornando 0 ou 1</TD>
+<TD>Testa uma opera√ß√£o aritm√©tica, retornando 0 ou 1</TD>
 <TD ALIGN="center">((5 &gt; 3))</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>$((...))</CODE></TD>
-<TD>Retorna o resultado de uma operaÁ„o aritmÈtica</TD>
+<TD>Retorna o resultado de uma opera√ß√£o aritm√©tica</TD>
 <TD ALIGN="center">$((5+3))</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>[...]</CODE></TD>
-<TD>Testa uma express„o, retornando 0 ou 1 (alias do comando 'test')</TD>
+<TD>Testa uma express√£o, retornando 0 ou 1 (alias do comando 'test')</TD>
 <TD ALIGN="center">[ 5 -gt 3 ]</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>[[...]]</CODE></TD>
-<TD>Testa uma express„o, retornando 0 ou 1 (podendo usar &amp;&amp; e ||)</TD>
+<TD>Testa uma express√£o, retornando 0 ou 1 (podendo usar &amp;&amp; e ||)</TD>
 <TD ALIGN="center">[[ 5 &gt; 3 ]]</TD>
 </TR>
 </TABLE>
@@ -542,150 +542,150 @@
 </TABLE>
 
 <A NAME="test"></A>
-<hr><H2>7. OpÁıes do comando test ou [</H2>
+<hr><H2>7. Op√ß√µes do comando test ou [</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left" COLSPAN="2">Testes em arquivos</TH>
 <TH align="left" WIDTH=50></TH>
-<TH align="left" COLSPAN="2">Testes em vari·veis</TH>
+<TH align="left" COLSPAN="2">Testes em vari√°veis</TH>
 </TR>
 <TR>
 <TD><CODE>-b</CODE></TD>
-<TD>… um dispositivo de bloco</TD>
+<TD>√â um dispositivo de bloco</TD>
 <TD></TD>
 <TD></TD>
 <TD></TD>
 </TR>
 <TR>
 <TD><CODE>-c</CODE></TD>
-<TD>… um dispositivo de caractere</TD>
+<TD>√â um dispositivo de caractere</TD>
 <TD></TD>
-<TD ALIGN="center" COLSPAN="2"><B>ComparaÁ„o NumÈrica</B></TD>
+<TD ALIGN="center" COLSPAN="2"><B>Compara√ß√£o Num√©rica</B></TD>
 </TR>
 <TR>
 <TD><CODE>-d</CODE></TD>
-<TD>… um diretÛrio</TD>
+<TD>√â um diret√≥rio</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-lt</CODE></TD>
-<TD>… menor que   (LessThan)</TD>
+<TD>√â menor que   (LessThan)</TD>
 </TR>
 <TR>
 <TD><CODE>-e</CODE></TD>
 <TD>O arquivo existe</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-gt</CODE></TD>
-<TD>… maior que   (GreaterThan)</TD>
+<TD>√â maior que   (GreaterThan)</TD>
 </TR>
 <TR>
 <TD><CODE>-f</CODE></TD>
-<TD>… um arquivo normal</TD>
+<TD>√â um arquivo normal</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-le</CODE></TD>
-<TD>… menor igual (LessEqual)</TD>
+<TD>√â menor igual (LessEqual)</TD>
 </TR>
 <TR>
 <TD><CODE>-g</CODE></TD>
-<TD>O bit SGID est· ativado</TD>
+<TD>O bit SGID est√° ativado</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-ge</CODE></TD>
-<TD>… maior igual (GreaterEqual)</TD>
+<TD>√â maior igual (GreaterEqual)</TD>
 </TR>
 <TR>
 <TD><CODE>-G</CODE></TD>
-<TD>O grupo do arquivo È o do usu·rio atual</TD>
+<TD>O grupo do arquivo √© o do usu√°rio atual</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-eq</CODE></TD>
-<TD>… igual       (EQual)</TD>
+<TD>√â igual       (EQual)</TD>
 </TR>
 <TR>
 <TD><CODE>-k</CODE></TD>
-<TD>O sticky-bit est· ativado</TD>
+<TD>O sticky-bit est√° ativado</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-ne</CODE></TD>
-<TD>… diferente   (NotEqual)</TD>
+<TD>√â diferente   (NotEqual)</TD>
 </TR>
 <TR>
 <TD><CODE>-L</CODE></TD>
-<TD>O arquivo È um link simbÛlico</TD>
+<TD>O arquivo √© um link simb√≥lico</TD>
 <TD></TD>
 <TD></TD>
 <TD></TD>
 </TR>
 <TR>
 <TD><CODE>-O</CODE></TD>
-<TD>O dono do arquivo È o usu·rio atual</TD>
+<TD>O dono do arquivo √© o usu√°rio atual</TD>
 <TD></TD>
-<TD ALIGN="center" COLSPAN="2"><B>ComparaÁ„o de Strings</B></TD>
+<TD ALIGN="center" COLSPAN="2"><B>Compara√ß√£o de Strings</B></TD>
 </TR>
 <TR>
 <TD><CODE>-p</CODE></TD>
-<TD>O arquivo È um named pipe</TD>
+<TD>O arquivo √© um named pipe</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>=</CODE></TD>
-<TD>… igual</TD>
+<TD>√â igual</TD>
 </TR>
 <TR>
 <TD><CODE>-r</CODE></TD>
-<TD>O arquivo tem permiss„o de leitura</TD>
+<TD>O arquivo tem permiss√£o de leitura</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>!=</CODE></TD>
-<TD>… diferente</TD>
+<TD>√â diferente</TD>
 </TR>
 <TR>
 <TD><CODE>-s</CODE></TD>
-<TD>O tamanho do arquivo È maior que zero</TD>
+<TD>O tamanho do arquivo √© maior que zero</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-n</CODE></TD>
-<TD>… n„o nula</TD>
+<TD>√â n√£o nula</TD>
 </TR>
 <TR>
 <TD><CODE>-S</CODE></TD>
-<TD>O arquivo È um socket</TD>
+<TD>O arquivo √© um socket</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-z</CODE></TD>
-<TD>… nula</TD>
+<TD>√â nula</TD>
 </TR>
 <TR>
 <TD><CODE>-t</CODE></TD>
-<TD>O descritor de arquivos N È um terminal</TD>
+<TD>O descritor de arquivos N √© um terminal</TD>
 <TD></TD>
 <TD></TD>
 <TD></TD>
 </TR>
 <TR>
 <TD><CODE>-u</CODE></TD>
-<TD>O bit SUID est· ativado</TD>
+<TD>O bit SUID est√° ativado</TD>
 <TD></TD>
-<TD ALIGN="center" COLSPAN="2"><B>Operadores LÛgicos</B></TD>
+<TD ALIGN="center" COLSPAN="2"><B>Operadores L√≥gicos</B></TD>
 </TR>
 <TR>
 <TD><CODE>-w</CODE></TD>
-<TD>O arquivo tem permiss„o de escrita</TD>
+<TD>O arquivo tem permiss√£o de escrita</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>!</CODE></TD>
-<TD>N√O lÛgico (NOT)</TD>
+<TD>N√ÉO l√≥gico (NOT)</TD>
 </TR>
 <TR>
 <TD><CODE>-x</CODE></TD>
-<TD>O arquivo tem permiss„o de execuÁ„o</TD>
+<TD>O arquivo tem permiss√£o de execu√ß√£o</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-a</CODE></TD>
-<TD>E lÛgico (AND)</TD>
+<TD>E l√≥gico (AND)</TD>
 </TR>
 <TR>
 <TD><CODE>-nt</CODE></TD>
-<TD>O arquivo È mais recente (NewerThan)</TD>
+<TD>O arquivo √© mais recente (NewerThan)</TD>
 <TD></TD>
 <TD ALIGN="center"><CODE>-o</CODE></TD>
-<TD>OU lÛgico (OR)</TD>
+<TD>OU l√≥gico (OR)</TD>
 </TR>
 <TR>
 <TD><CODE>-ot</CODE></TD>
-<TD>O arquivo È mais antigo (OlderThan)</TD>
+<TD>O arquivo √© mais antigo (OlderThan)</TD>
 </TR>
 <TR>
 <TD><CODE>-ef</CODE></TD>
-<TD>O arquivo È o mesmo (EqualFile)</TD>
+<TD>O arquivo √© o mesmo (EqualFile)</TD>
 </TR>
 </TABLE>
 
@@ -705,7 +705,7 @@
 <TR>
 <TD>\d</TD>
 <TD><I>Data</I></TD>
-<TD>Data no formato "Dia-da-semana MÍs Dia" (Sat Jan 15)</TD>
+<TD>Data no formato "Dia-da-semana M√™s Dia" (Sat Jan 15)</TD>
 </TR>
 <TR>
 <TD>\e</TD>
@@ -715,17 +715,17 @@
 <TR>
 <TD>\h</TD>
 <TD><I>Hostname</I></TD>
-<TD>Nome da m·quina sem o domÌnio (dhcp11)</TD>
+<TD>Nome da m√°quina sem o dom√≠nio (dhcp11)</TD>
 </TR>
 <TR>
 <TD>\H</TD>
 <TD><I>Hostname</I></TD>
-<TD>Nome completo da m·quina (dhcp11.empresa)</TD>
+<TD>Nome completo da m√°quina (dhcp11.empresa)</TD>
 </TR>
 <TR>
 <TD>\j</TD>
 <TD><I>Jobs</I></TD>
-<TD>N˙mero de jobs ativos</TD>
+<TD>N√∫mero de jobs ativos</TD>
 </TR>
 <TR>
 <TD>\l</TD>
@@ -750,67 +750,67 @@
 <TR>
 <TD>\t</TD>
 <TD><I>Time</I></TD>
-<TD>Hor·rio no formato 24 horas HH:MM:SS</TD>
+<TD>Hor√°rio no formato 24 horas HH:MM:SS</TD>
 </TR>
 <TR>
 <TD>\T</TD>
 <TD><I>Time</I></TD>
-<TD>Hor·rio no formato 12 horas HH:MM:SS</TD>
+<TD>Hor√°rio no formato 12 horas HH:MM:SS</TD>
 </TR>
 <TR>
 <TD>\@</TD>
 <TD><I>At</I></TD>
-<TD>Hor·rio no formato 12 horas HH:MM am/pm</TD>
+<TD>Hor√°rio no formato 12 horas HH:MM am/pm</TD>
 </TR>
 <TR>
 <TD>\A</TD>
 <TD><I>At</I></TD>
-<TD>Hor·rio no formato 24 horas HH:MM</TD>
+<TD>Hor√°rio no formato 24 horas HH:MM</TD>
 </TR>
 <TR>
 <TD>\u</TD>
-<TD><I>Usu·rio</I></TD>
-<TD>Login do usu·rio corrente</TD>
+<TD><I>Usu√°rio</I></TD>
+<TD>Login do usu√°rio corrente</TD>
 </TR>
 <TR>
 <TD>\v</TD>
-<TD><I>Vers„o</I></TD>
-<TD>Vers„o do Bash (2.00)</TD>
+<TD><I>Vers√£o</I></TD>
+<TD>Vers√£o do Bash (2.00)</TD>
 </TR>
 <TR>
 <TD>\V</TD>
-<TD><I>Vers„o</I></TD>
-<TD>Vers„o+subvers„o do Bash (2.00.0)</TD>
+<TD><I>Vers√£o</I></TD>
+<TD>Vers√£o+subvers√£o do Bash (2.00.0)</TD>
 </TR>
 <TR>
 <TD>\w</TD>
 <TD><I>Working Dir</I></TD>
-<TD>DiretÛrio corrente, caminho completo ($PWD)</TD>
+<TD>Diret√≥rio corrente, caminho completo ($PWD)</TD>
 </TR>
 <TR>
 <TD>\W</TD>
 <TD><I>Working Dir</I></TD>
-<TD>DiretÛrio corrente, somente o ˙ltimo (basename $PWD)</TD>
+<TD>Diret√≥rio corrente, somente o √∫ltimo (basename $PWD)</TD>
 </TR>
 <TR>
 <TD>\!</TD>
-<TD><I>HistÛrico</I></TD>
-<TD>N˙mero do comando corrente no histÛrico</TD>
+<TD><I>Hist√≥rico</I></TD>
+<TD>N√∫mero do comando corrente no hist√≥rico</TD>
 </TR>
 <TR>
 <TD>\#</TD>
-<TD><I>N˙mero</I></TD>
-<TD>N˙mero do comando corrente</TD>
+<TD><I>N√∫mero</I></TD>
+<TD>N√∫mero do comando corrente</TD>
 </TR>
 <TR>
 <TD>\$</TD>
 <TD><I>ID</I></TD>
-<TD>Mostra "#" se for root, "$" se for usu·rio normal</TD>
+<TD>Mostra "#" se for root, "$" se for usu√°rio normal</TD>
 </TR>
 <TR>
 <TD>\nnn</TD>
 <TD><I>Octal</I></TD>
-<TD>Caractere cujo octal È nnn</TD>
+<TD>Caractere cujo octal √© nnn</TD>
 </TR>
 <TR>
 <TD>\\</TD>
@@ -820,12 +820,12 @@
 <TR>
 <TD>\[</TD>
 <TD><I>Escapes</I></TD>
-<TD>Inicia uma seq¸Íncia de escapes (tipo cÛdigos de cores)</TD>
+<TD>Inicia uma seq√º√™ncia de escapes (tipo c√≥digos de cores)</TD>
 </TR>
 <TR>
 <TD>\]</TD>
 <TD><I>Escapes</I></TD>
-<TD>Termina uma seq¸Íncia de escapes</TD>
+<TD>Termina uma seq√º√™ncia de escapes</TD>
 </TR>
 </TABLE>
 
@@ -835,7 +835,7 @@
 <TR>
 <TH align="left">Escape</TH>
 <TH align="left">Lembrete</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 </TR>
 <TR>
 <TD ALIGN="center">\a</TD>
@@ -860,7 +860,7 @@
 <TR>
 <TD ALIGN="center">\f</TD>
 <TD><I>Form feed</I></TD>
-<TD>AlimentaÁ„o</TD>
+<TD>Alimenta√ß√£o</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\n</TD>
@@ -875,12 +875,12 @@
 <TR>
 <TD ALIGN="center">\t</TD>
 <TD><I>Tab</I></TD>
-<TD>TabulaÁ„o horizontal</TD>
+<TD>Tabula√ß√£o horizontal</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\v</TD>
 <TD><I>Vtab</I></TD>
-<TD>TabulaÁ„o vertical</TD>
+<TD>Tabula√ß√£o vertical</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\\</TD>
@@ -890,12 +890,12 @@
 <TR>
 <TD ALIGN="center">\nnn</TD>
 <TD><I>Octal</I></TD>
-<TD>Caractere cujo octal È nnn</TD>
+<TD>Caractere cujo octal √© nnn</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\xnn</TD>
 <TD><I>Hexa</I></TD>
-<TD>Caractere cujo hexadecimal È nn</TD>
+<TD>Caractere cujo hexadecimal √© nn</TD>
 </TR>
 </TABLE>
 
@@ -904,23 +904,23 @@
 <TABLE>
 <TR>
 <TH align="left">Formato</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%a</CODE></TD>
-<TD>Nome do dia da semana abreviado (Dom..S·b)</TD>
+<TD>Nome do dia da semana abreviado (Dom..S√°b)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%A</CODE></TD>
-<TD>Nome do dia da semana (Domingo..S·bado)</TD>
+<TD>Nome do dia da semana (Domingo..S√°bado)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%b</CODE></TD>
-<TD>Nome do mÍs abreviado (Jan..Dez)</TD>
+<TD>Nome do m√™s abreviado (Jan..Dez)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%B</CODE></TD>
-<TD>Nome do mÍs (Janeiro..Dezembro)</TD>
+<TD>Nome do m√™s (Janeiro..Dezembro)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%c</CODE></TD>
@@ -928,15 +928,15 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%y</CODE></TD>
-<TD>Ano (dois dÌgitos)</TD>
+<TD>Ano (dois d√≠gitos)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%Y</CODE></TD>
-<TD>Ano (quatro dÌgitos)</TD>
+<TD>Ano (quatro d√≠gitos)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%m</CODE></TD>
-<TD>MÍs (01..12)</TD>
+<TD>M√™s (01..12)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%d</CODE></TD>
@@ -960,7 +960,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%s</CODE></TD>
-<TD>Segundos desde 1∫ de Janeiro de 1970</TD>
+<TD>Segundos desde 1¬∫ de Janeiro de 1970</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%%</CODE></TD>
@@ -981,35 +981,35 @@
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Formato</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%d</CODE></TD>
-<TD>N˙mero decimal</TD>
+<TD>N√∫mero decimal</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%o</CODE></TD>
-<TD>N˙mero octal</TD>
+<TD>N√∫mero octal</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%x</CODE></TD>
-<TD>N˙mero hexadecimal (a-f)</TD>
+<TD>N√∫mero hexadecimal (a-f)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%X</CODE></TD>
-<TD>N˙mero hexadecimal (A-F)</TD>
+<TD>N√∫mero hexadecimal (A-F)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%f</CODE></TD>
-<TD>N˙mero com ponto flutuante</TD>
+<TD>N√∫mero com ponto flutuante</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%e</CODE></TD>
-<TD>N˙mero em notaÁ„o cientÌfica (e+1)</TD>
+<TD>N√∫mero em nota√ß√£o cient√≠fica (e+1)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%E</CODE></TD>
-<TD>N˙mero em notaÁ„o cientÌfica (E+1)</TD>
+<TD>N√∫mero em nota√ß√£o cient√≠fica (E+1)</TD>
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>%s</CODE></TD>
@@ -1033,12 +1033,12 @@
 <TR>
 <TD ALIGN="center">d</TD>
 <TD ALIGN="center">Directory</TD>
-<TD>DiretÛrio</TD>
+<TD>Diret√≥rio</TD>
 </TR>
 <TR>
 <TD ALIGN="center">l</TD>
 <TD ALIGN="center">Link</TD>
-<TD>Link simbÛlico</TD>
+<TD>Link simb√≥lico</TD>
 </TR>
 <TR>
 <TD ALIGN="center">b</TD>
@@ -1053,22 +1053,22 @@
 <TR>
 <TD ALIGN="center">s</TD>
 <TD ALIGN="center">Socket</TD>
-<TD>Socket mapeado em arquivo (comunicaÁ„o de processos)</TD>
+<TD>Socket mapeado em arquivo (comunica√ß√£o de processos)</TD>
 </TR>
 <TR>
 <TD ALIGN="center">p</TD>
 <TD ALIGN="center">Pipe</TD>
-<TD>FIFO ou Named Pipe (comunicaÁ„o de processos)</TD>
+<TD>FIFO ou Named Pipe (comunica√ß√£o de processos)</TD>
 </TR>
 <TR>
 <TH align="left">Letra</TH>
 <TH align="left">Lembrete</TH>
-<TH align="left">Permissıes do Arquivo (prÛximos nove caracteres)</TH>
+<TH align="left">Permiss√µes do Arquivo (pr√≥ximos nove caracteres)</TH>
 </TR>
 <TR>
 <TD ALIGN="center">-</TD>
 <TD ALIGN="center">-</TD>
-<TD>Permiss„o desativada</TD>
+<TD>Permiss√£o desativada</TD>
 </TR>
 <TR>
 <TD ALIGN="center">r</TD>
@@ -1083,32 +1083,32 @@
 <TR>
 <TD ALIGN="center">x</TD>
 <TD ALIGN="center">eXecute</TD>
-<TD>Acesso de execuÁ„o (ou acesso ao diretÛrio)</TD>
+<TD>Acesso de execu√ß√£o (ou acesso ao diret√≥rio)</TD>
 </TR>
 <TR>
 <TD ALIGN="center">X</TD>
 <TD ALIGN="center">eXecute</TD>
-<TD>Acesso ao diretÛrio somente</TD>
+<TD>Acesso ao diret√≥rio somente</TD>
 </TR>
 <TR>
 <TD ALIGN="center">s</TD>
 <TD ALIGN="center">Set ID</TD>
-<TD>Usu·rio/grupo para execuÁ„o (SUID, SGID) - permiss„o 'x' ativada</TD>
+<TD>Usu√°rio/grupo para execu√ß√£o (SUID, SGID) - permiss√£o 'x' ativada</TD>
 </TR>
 <TR>
 <TD ALIGN="center">S</TD>
 <TD ALIGN="center">Set ID</TD>
-<TD>Usu·rio/grupo para execuÁ„o (SUID, SGID) - permiss„o 'x' desativada</TD>
+<TD>Usu√°rio/grupo para execu√ß√£o (SUID, SGID) - permiss√£o 'x' desativada</TD>
 </TR>
 <TR>
 <TD ALIGN="center">t</TD>
 <TD ALIGN="center">sTicky</TD>
-<TD>Usu·rios sÛ apagam seus prÛprios arquivos - permiss„o 'x' ativada</TD>
+<TD>Usu√°rios s√≥ apagam seus pr√≥prios arquivos - permiss√£o 'x' ativada</TD>
 </TR>
 <TR>
 <TD ALIGN="center">T</TD>
 <TD ALIGN="center">sTicky</TD>
-<TD>Usu·rios sÛ apagam seus prÛprios arquivos - permiss„o 'x' desativada</TD>
+<TD>Usu√°rios s√≥ apagam seus pr√≥prios arquivos - permiss√£o 'x' desativada</TD>
 </TR>
 </TABLE>
 
@@ -1142,7 +1142,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><CODE>{...}</CODE></TD>
-<TD>Qualquer um dos textos separados por vÌrgula</TD>
+<TD>Qualquer um dos textos separados por v√≠rgula</TD>
 <TD><CODE>arquivo.{txt,html}</CODE></TD>
 </TR>
 </TABLE>
@@ -1592,26 +1592,26 @@
 <TD>Como obter a listagem: trap -l, kill -l ou killall -l</TD>
 </TR>
 <TR>
-<TD>Veja tambÈm: <A HREF="http://unixhelp.ed.ac.uk/CGI/man-cgi?signal+7">man 7 signal</A></TD>
+<TD>Veja tamb√©m: <A HREF="http://unixhelp.ed.ac.uk/CGI/man-cgi?signal+7">man 7 signal</A></TD>
 </TR>
 </TABLE>
 
 <A NAME="exitcode"></A>
-<hr><H2>16. CÛdigos de retorno de comandos</H2>
+<hr><H2>16. C√≥digos de retorno de comandos</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
-<TH align="left">CÛdigo</TH>
+<TH align="left">C√≥digo</TH>
 <TH align="left">Significado</TH>
 <TH align="left">Exemplo</TH>
 </TR>
 <TR>
 <TD ALIGN="center">0</TD>
-<TD>Nenhum erro, execuÁ„o terminou OK</TD>
+<TD>Nenhum erro, execu√ß√£o terminou OK</TD>
 <TD>echo</TD>
 </TR>
 <TR>
 <TD ALIGN="center">1</TD>
-<TD>A maioria dos erros comuns na execuÁ„o</TD>
+<TD>A maioria dos erros comuns na execu√ß√£o</TD>
 <TD>echo $((1/0))</TD>
 </TR>
 <TR>
@@ -1621,22 +1621,22 @@
 </TR>
 <TR>
 <TD ALIGN="center">126</TD>
-<TD>Comando n„o execut·vel (sem permiss„o)</TD>
+<TD>Comando n√£o execut√°vel (sem permiss√£o)</TD>
 <TD>touch a ; ./a</TD>
 </TR>
 <TR>
 <TD ALIGN="center">127</TD>
-<TD>Comando n„o encontrado ("command not found")</TD>
+<TD>Comando n√£o encontrado ("command not found")</TD>
 <TD>echooo</TD>
 </TR>
 <TR>
 <TD ALIGN="center">128</TD>
-<TD>O par‚metro para o 'exit' n„o È um decimal</TD>
+<TD>O par√¢metro para o 'exit' n√£o √© um decimal</TD>
 <TD>exit 1.0</TD>
 </TR>
 <TR>
 <TD ALIGN="center">128+n</TD>
-<TD>128 + cÛdigo do sinal que o matou</TD>
+<TD>128 + c√≥digo do sinal que o matou</TD>
 <TD>kill -9 $PPID #exit 137</TD>
 </TR>
 <TR>
@@ -1646,13 +1646,13 @@
 </TR>
 <TR>
 <TD ALIGN="center">255</TD>
-<TD>Par‚metro para o 'exit' n„o est· entre 0 e 255</TD>
+<TD>Par√¢metro para o 'exit' n√£o est√° entre 0 e 255</TD>
 <TD>exit -1</TD>
 </TR>
 </TABLE>
 
 <A NAME="cores"></A>
-<hr><H2>17. CÛdigos de cores (ANSI)</H2>
+<hr><H2>17. C√≥digos de cores (ANSI)</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Cor</TH>
@@ -1747,12 +1747,12 @@
 </TABLE>
 
 <A NAME="metacaracteres"></A>
-<hr><H2>18. Os metacaracteres das expressıes regulares</H2>
+<hr><H2>18. Os metacaracteres das express√µes regulares</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Meta</TH>
 <TH align="left">Nome</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 </TR>
 <TR>
 <TD ALIGN="center">.</TD>
@@ -1772,7 +1772,7 @@
 <TR>
 <TD ALIGN="center">?</TD>
 <TD>Opcional</TD>
-<TD>A entidade anterior pode aparecer ou n„o (opcional)</TD>
+<TD>A entidade anterior pode aparecer ou n√£o (opcional)</TD>
 </TR>
 <TR>
 <TD ALIGN="center">*</TD>
@@ -1782,7 +1782,7 @@
 <TR>
 <TD ALIGN="center">+</TD>
 <TD>Mais</TD>
-<TD>A entidade anterior deve aparecer no mÌnimo uma vez</TD>
+<TD>A entidade anterior deve aparecer no m√≠nimo uma vez</TD>
 </TR>
 <TR>
 <TD ALIGN="center">{,}</TD>
@@ -1792,17 +1792,17 @@
 <TR>
 <TD ALIGN="center">^</TD>
 <TD>Circunflexo</TD>
-<TD>Casa o comeÁo da linha</TD>
+<TD>Casa o come√ßo da linha</TD>
 </TR>
 <TR>
 <TD ALIGN="center">$</TD>
-<TD>Cifr„o</TD>
+<TD>Cifr√£o</TD>
 <TD>Casa o fim da linha</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\b</TD>
 <TD>Borda</TD>
-<TD>Limita uma palavra (letras, n˙meros e sublinhado)</TD>
+<TD>Limita uma palavra (letras, n√∫meros e sublinhado)</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\</TD>
@@ -1817,47 +1817,47 @@
 <TR>
 <TD ALIGN="center">()</TD>
 <TD>Grupo</TD>
-<TD>Agrupa partes da express„o, È quantific·vel e multinÌvel</TD>
+<TD>Agrupa partes da express√£o, √© quantific√°vel e multin√≠vel</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\1</TD>
 <TD>Retrovisor</TD>
-<TD>Recupera o conte˙do do grupo 1</TD>
+<TD>Recupera o conte√∫do do grupo 1</TD>
 </TR>
 <TR>
 <TD ALIGN="center">\2</TD>
 <TD>Retrovisor</TD>
-<TD>Recupera o conte˙do do grupo 2 (segue atÈ o \9)</TD>
+<TD>Recupera o conte√∫do do grupo 2 (segue at√© o \9)</TD>
 </TR>
 <TR>
 <TD ALIGN="center">.*</TD>
 <TD>Curinga</TD>
-<TD>Casa qualquer coisa, È o tudo e o nada</TD>
+<TD>Casa qualquer coisa, √© o tudo e o nada</TD>
 </TR>
 <TR>
 <TD ALIGN="center">??</TD>
 <TD>Opcional NG</TD>
-<TD>Idem ao opcional comum, mas casa o mÌnimo possÌvel</TD>
+<TD>Idem ao opcional comum, mas casa o m√≠nimo poss√≠vel</TD>
 </TR>
 <TR>
 <TD ALIGN="center">*?</TD>
 <TD>Asterisco NG</TD>
-<TD>Idem ao asterisco comum, mas casa o mÌnimo possÌvel</TD>
+<TD>Idem ao asterisco comum, mas casa o m√≠nimo poss√≠vel</TD>
 </TR>
 <TR>
 <TD ALIGN="center">+?</TD>
 <TD>Mais NG</TD>
-<TD>Idem ao mais comum, mas casa o mÌnimo possÌvel</TD>
+<TD>Idem ao mais comum, mas casa o m√≠nimo poss√≠vel</TD>
 </TR>
 <TR>
 <TD ALIGN="center">{}?</TD>
 <TD>Chaves NG</TD>
-<TD>Idem ‡s chaves comuns, mas casa o mÌnimo possÌvel</TD>
+<TD>Idem √†s chaves comuns, mas casa o m√≠nimo poss√≠vel</TD>
 </TR>
 </TABLE>
 
 <A NAME="metadif"></A>
-<hr><H2>19. Metacaracteres que s„o diferentes nos aplicativos</H2>
+<hr><H2>19. Metacaracteres que s√£o diferentes nos aplicativos</H2>
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Programa</TH>
@@ -1997,45 +1997,45 @@
 </TABLE>
 
 <A NAME="ascii"></A>
-<hr><H2>20. Caracteres ASCII imprimÌveis (ISO-8859-1) - texto</H2>
+<hr><H2>20. Caracteres ASCII imprim√≠veis (ISO-8859-1) - texto</H2>
 <PRE>
       $ <a href="http://funcoeszz.net">zzascii</a>
-      32        64  @     96  `    162  ¢    194  ¬    226  ‚
-      33  !     65  A     97  a    163  £    195  √    227  „
-      34  "     66  B     98  b    164  §    196  ƒ    228  ‰
-      35  #     67  C     99  c    165  •    197  ≈    229  Â
-      36  $     68  D    100  d    166  ¶    198  ∆    230  Ê
-      37  %     69  E    101  e    167  ß    199  «    231  Á
-      38  &amp;     70  F    102  f    168  ®    200  »    232  Ë
-      39  '     71  G    103  g    169  ©    201  …    233  È
-      40  (     72  H    104  h    170  ™    202       234  Í
-      41  )     73  I    105  i    171  ´    203  À    235  Î
-      42  *     74  J    106  j    172  ¨    204  Ã    236  Ï
-      43  +     75  K    107  k    173       205  Õ    237  Ì
-      44  ,     76  L    108  l    174  Æ    206  Œ    238  Ó
-      45  -     77  M    109  m    175  Ø    207  œ    239  Ô
-      46  .     78  N    110  n    176  ∞    208  –    240  
-      47  /     79  O    111  o    177  ±    209  —    241  Ò
-      48  0     80  P    112  p    178  ≤    210  “    242  Ú
-      49  1     81  Q    113  q    179  ≥    211  ”    243  Û
-      50  2     82  R    114  r    180  ¥    212  ‘    244  Ù
-      51  3     83  S    115  s    181  µ    213  ’    245  ı
-      52  4     84  T    116  t    182  ∂    214  ÷    246  ˆ
-      53  5     85  U    117  u    183  ∑    215  ◊    247  ˜
-      54  6     86  V    118  v    184  ∏    216  ÿ    248  ¯
-      55  7     87  W    119  w    185  π    217  Ÿ    249  ˘
-      56  8     88  X    120  x    186  ∫    218  ⁄    250  ˙
-      57  9     89  Y    121  y    187  ª    219  €    251  ˚
-      58  :     90  Z    122  z    188  º    220  ‹    252  ¸
-      59  ;     91  [    123  {    189  Ω    221  ›    253  ˝
-      60  &lt;     92  \    124  |    190  æ    222  ﬁ    254  ˛
-      61  =     93  ]    125  }    191  ø    223  ﬂ    255  ˇ
-      62  &gt;     94  ^    126  ~    192  ¿    224  ‡   
-      63  ?     95  _    161  °    193  ¡    225  ·   
+      32        64  @     96  `    162  ¬¢    194  √Ç    226  √¢
+      33  !     65  A     97  a    163  ¬£    195  √É    227  √£
+      34  "     66  B     98  b    164  ¬§    196  √Ñ    228  √§
+      35  #     67  C     99  c    165  ¬•    197  √Ö    229  √•
+      36  $     68  D    100  d    166  ¬¶    198  √Ü    230  √¶
+      37  %     69  E    101  e    167  ¬ß    199  √á    231  √ß
+      38  &amp;     70  F    102  f    168  ¬®    200  √à    232  √®
+      39  '     71  G    103  g    169  ¬©    201  √â    233  √©
+      40  (     72  H    104  h    170  ¬™    202  √ä    234  √™
+      41  )     73  I    105  i    171  ¬´    203  √ã    235  √´
+      42  *     74  J    106  j    172  ¬¨    204  √å    236  √¨
+      43  +     75  K    107  k    173       205  √ç    237  √≠
+      44  ,     76  L    108  l    174  ¬Æ    206  √é    238  √Æ
+      45  -     77  M    109  m    175  ¬Ø    207  √è    239  √Ø
+      46  .     78  N    110  n    176  ¬∞    208  √ê    240  √∞
+      47  /     79  O    111  o    177  ¬±    209  √ë    241  √±
+      48  0     80  P    112  p    178  ¬≤    210  √í    242  √≤
+      49  1     81  Q    113  q    179  ¬≥    211  √ì    243  √≥
+      50  2     82  R    114  r    180  ¬¥    212  √î    244  √¥
+      51  3     83  S    115  s    181  ¬µ    213  √ï    245  √µ
+      52  4     84  T    116  t    182  ¬∂    214  √ñ    246  √∂
+      53  5     85  U    117  u    183  ¬∑    215  √ó    247  √∑
+      54  6     86  V    118  v    184  ¬∏    216  √ò    248  √∏
+      55  7     87  W    119  w    185  ¬π    217  √ô    249  √π
+      56  8     88  X    120  x    186  ¬∫    218  √ö    250  √∫
+      57  9     89  Y    121  y    187  ¬ª    219  √õ    251  √ª
+      58  :     90  Z    122  z    188  ¬º    220  √ú    252  √º
+      59  ;     91  [    123  {    189  ¬Ω    221  √ù    253  √Ω
+      60  &lt;     92  \    124  |    190  ¬æ    222  √û    254  √æ
+      61  =     93  ]    125  }    191  ¬ø    223  √ü    255  √ø
+      62  &gt;     94  ^    126  ~    192  √Ä    224  √†   
+      63  ?     95  _    161  ¬°    193  √Å    225  √°   
 </PRE>
 <P></P>
 <A NAME="codigos"></A>
-<hr><H2>21. CÛdigos prontos para copiar e colar</H2>
+<hr><H2>21. C√≥digos prontos para copiar e colar</H2>
 <TABLE>
 <TR>
 <TH align="left">Condicionais com o IF</TH>
@@ -2044,7 +2044,7 @@
 <TD><CODE>if [ -f "$arquivo" ]; then echo 'Arquivo encontrado'; fi</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>if [ ! -d "$dir" ]; then echo 'DiretÛrio n„o encontrado'; fi</CODE></TD>
+<TD><CODE>if [ ! -d "$dir" ]; then echo 'Diret√≥rio n√£o encontrado'; fi</CODE></TD>
 </TR>
 <TR>
 <TD><CODE>if [ $i -gt 5 ]; then echo 'Maior que 5'; else echo 'Menor que 5'; fi</CODE></TD>
@@ -2059,7 +2059,7 @@
 <TD><CODE>if [ "$USER" = 'root' ]; then echo 'Oi root'; fi</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>if grep -qs 'root' /etc/passwd; then echo 'Usu·rio encontrado'; fi</CODE></TD>
+<TD><CODE>if grep -qs 'root' /etc/passwd; then echo 'Usu√°rio encontrado'; fi</CODE></TD>
 </TR>
 <TR>
 <TH align="left">Condicionais com o E (&amp;&amp;) e OU (||)</TH>
@@ -2068,25 +2068,25 @@
 <TD><CODE>[ -f "$arquivo" ] &amp;&amp; echo 'Arquivo encontrado'</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>[ -d "$dir" ] || echo 'DiretÛrio n„o encontrado'</CODE></TD>
+<TD><CODE>[ -d "$dir" ] || echo 'Diret√≥rio n√£o encontrado'</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>grep -qs 'root' /etc/passwd &amp;&amp; echo 'Usu·rio encontrado'</CODE></TD>
+<TD><CODE>grep -qs 'root' /etc/passwd &amp;&amp; echo 'Usu√°rio encontrado'</CODE></TD>
 </TR>
 <TR>
 <TD><CODE>cd "$dir" &amp;&amp; rm "$arquivo" &amp;&amp; touch "$arquivo" &amp;&amp; echo 'feito!'</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>[ "$1" ] &amp;&amp; param=$1 || param='valor padr„o'</CODE></TD>
+<TD><CODE>[ "$1" ] &amp;&amp; param=$1 || param='valor padr√£o'</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>[ "$1" ] &amp;&amp; param=${1:-valor padr„o}</CODE></TD>
+<TD><CODE>[ "$1" ] &amp;&amp; param=${1:-valor padr√£o}</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>[ "$1" ] || { echo "Uso: $0 par‚metro" ; exit 1 ; }</CODE></TD>
+<TD><CODE>[ "$1" ] || { echo "Uso: $0 par√¢metro" ; exit 1 ; }</CODE></TD>
 </TR>
 <TR>
-<TH align="left">Adicionar 1 ‡ vari·vel $i</TH>
+<TH align="left">Adicionar 1 √† vari√°vel $i</TH>
 </TR>
 <TR>
 <TD><CODE>i=$(expr $i + 1)</CODE></TD>
@@ -2104,7 +2104,7 @@
 <TD><CODE>let i++</CODE></TD>
 </TR>
 <TR>
-<TH align="left">Loop de 1 ‡ 10</TH>
+<TH align="left">Loop de 1 √† 10</TH>
 </TR>
 <TR>
 <TD><CODE>for i in 1 2 3 4 5 6 7 8 9 10; do echo $i; done</CODE></TD>
@@ -2122,7 +2122,7 @@
 <TD><CODE>i=1 ; until [ $i -gt 10 ]; do echo $i ; i=$((i+1)) ; done</CODE></TD>
 </TR>
 <TR>
-<TH align="left">Loop nas linhas de um arquivo ou saÌda de comando</TH>
+<TH align="left">Loop nas linhas de um arquivo ou sa√≠da de comando</TH>
 </TR>
 <TR>
 <TD><CODE>cat /etc/passwd | while read LINHA; do echo "$LINHA"; done</CODE></TD>
@@ -2143,13 +2143,13 @@
 <TD><CODE>case "$dir" in /home/*) echo 'dir dentro do /home';; esac</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>case "$user" in root|joao|maria) echo "Oi $user";; *) echo "N„o te conheÁo";; esac</CODE></TD>
+<TD><CODE>case "$user" in root|joao|maria) echo "Oi $user";; *) echo "N√£o te conhe√ßo";; esac</CODE></TD>
 </TR>
 <TR>
 <TD><CODE>case "$var" in ?) echo '1 letra';; ??) echo '2 letras';; ??*) echo 'mais de 2';; esac</CODE></TD>
 </TR>
 <TR>
-<TD><CODE>case "$i" in [0-9]) echo '1 dÌgito';; [0-9][0-9]) echo '2 dÌgitos';; esac</CODE></TD>
+<TD><CODE>case "$i" in [0-9]) echo '1 d√≠gito';; [0-9][0-9]) echo '2 d√≠gitos';; esac</CODE></TD>
 </TR>
 <TR>
 <TH align="left">Caixas do Dialog</TH>
@@ -2209,17 +2209,17 @@
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Atalho</TH>
-<TH align="left">DescriÁ„o</TH>
+<TH align="left">Descri√ß√£o</TH>
 <TH align="left">Tecla Similar</TH>
 </TR>
 <TR>
 <TD>Ctrl+A</TD>
-<TD>Move o cursor para o inÌcio da linha</TD>
+<TD>Move o cursor para o in√≠cio da linha</TD>
 <TD ALIGN="center">Home</TD>
 </TR>
 <TR>
 <TD>Ctrl+B</TD>
-<TD>Move o cursor uma posiÁ„o ‡ esquerda</TD>
+<TD>Move o cursor uma posi√ß√£o √† esquerda</TD>
 <TD ALIGN="center">&lt;-</TD>
 </TR>
 <TR>
@@ -2228,7 +2228,7 @@
 </TR>
 <TR>
 <TD>Ctrl+D</TD>
-<TD>Apaga um caractere ‡ direita</TD>
+<TD>Apaga um caractere √† direita</TD>
 <TD ALIGN="center">Delete</TD>
 </TR>
 <TR>
@@ -2238,12 +2238,12 @@
 </TR>
 <TR>
 <TD>Ctrl+F</TD>
-<TD>Move o cursor uma posiÁ„o ‡ direita</TD>
+<TD>Move o cursor uma posi√ß√£o √† direita</TD>
 <TD ALIGN="center">-&gt;</TD>
 </TR>
 <TR>
 <TD>Ctrl+H</TD>
-<TD>Apaga um caractere ‡ esquerda</TD>
+<TD>Apaga um caractere √† esquerda</TD>
 <TD ALIGN="center">Backspace</TD>
 </TR>
 <TR>
@@ -2258,7 +2258,7 @@
 </TR>
 <TR>
 <TD>Ctrl+K</TD>
-<TD>Recorta do cursor atÈ o fim da linha</TD>
+<TD>Recorta do cursor at√© o fim da linha</TD>
 </TR>
 <TR>
 <TD>Ctrl+L</TD>
@@ -2266,7 +2266,7 @@
 </TR>
 <TR>
 <TD>Ctrl+N</TD>
-<TD>PrÛximo comando</TD>
+<TD>Pr√≥ximo comando</TD>
 </TR>
 <TR>
 <TD>Ctrl+P</TD>
@@ -2278,7 +2278,7 @@
 </TR>
 <TR>
 <TD>Ctrl+R</TD>
-<TD>Procura no histÛrico de comandos</TD>
+<TD>Procura no hist√≥rico de comandos</TD>
 </TR>
 <TR>
 <TD>Ctrl+S</TD>
@@ -2298,11 +2298,11 @@
 </TR>
 <TR>
 <TD>Ctrl+W</TD>
-<TD>Recorta a palavra ‡ esquerda</TD>
+<TD>Recorta a palavra √† esquerda</TD>
 </TR>
 <TR>
 <TD>Ctrl+X</TD>
-<TD>Move o cursor para o inÌcio/fim da linha (2x)</TD>
+<TD>Move o cursor para o in√≠cio/fim da linha (2x)</TD>
 <TD ALIGN="center">Home/End</TD>
 </TR>
 <TR>
@@ -2316,8 +2316,8 @@
 <TABLE CELLPADDING="4" BORDER="0">
 <TR>
 <TH align="left">Comando</TH>
-<TH align="left">FunÁ„o</TH>
-<TH align="left">OpÁıes ˙teis</TH>
+<TH align="left">Fun√ß√£o</TH>
+<TH align="left">Op√ß√µes √∫teis</TH>
 </TR>
 <TR>
 <TD ALIGN="center"><B>cat</B></TD>
@@ -2351,7 +2351,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><B>fmt</B></TD>
-<TD><I>Formata par·grafo</I></TD>
+<TD><I>Formata par√°grafo</I></TD>
 <TD>-w, -u</TD>
 </TR>
 <TR>
@@ -2361,7 +2361,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><B>head</B></TD>
-<TD><I>Mostra InÌcio</I></TD>
+<TD><I>Mostra In√≠cio</I></TD>
 <TD>-n, -c</TD>
 </TR>
 <TR>
@@ -2391,7 +2391,7 @@
 </TR>
 <TR>
 <TD ALIGN="center"><B>seq</B></TD>
-<TD><I>Conta N˙meros</I></TD>
+<TD><I>Conta N√∫meros</I></TD>
 <TD>-s, -f</TD>
 </TR>
 <TR>

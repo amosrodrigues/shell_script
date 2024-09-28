@@ -1,7 +1,7 @@
 #!/bin/bash
 # cinco.sh
 #
-# Conta até cinco :)
+# Conta atÃ© cinco :)
 
 echo $((0+1))
 echo $((0+2))

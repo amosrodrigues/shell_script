@@ -3,11 +3,11 @@ echo "Vou buscar os dados do sistema. Posso continuar? [sn] "
 read RESPOSTA
 test "$RESPOSTA" = "n" && exit
 
-echo "Data e Hor·rio:"
+echo "Data e Hor√°rio:"
 date
 echo
 echo "Uso do disco:"
 df
 echo
-echo "Usu·rios conectados:"
+echo "Usu√°rios conectados:"
 w

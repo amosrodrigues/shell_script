@@ -1,19 +1,19 @@
 #!/bin/bash
 # debug-categorizado.sh
 #
-# Exemplo de Debug categorizado em três níveis
+# Exemplo de Debug categorizado em trÃªs nÃ­veis
 
-DEBUG=${1:-0}         # passe o nível pelo $1
+DEBUG=${1:-0}         # passe o nÃ­vel pelo $1
 
 Debug(){
 	[ $1 -le $DEBUG ] && echo "--- DEBUG $*"
 }
 
-Debug 1 "Início do Programa"
+Debug 1 "InÃ­cio do Programa"
 
 i=0
 max=5
-echo "Contando até $max"
+echo "Contando atÃ© $max"
 
 Debug 2 "Vou entrar no WHILE"
 
@@ -26,7 +26,7 @@ while [ $i -ne $max ]; do
 	echo "$i..."
 done
 
-Debug 2 "Saí do WHILE"
+Debug 2 "SaÃ­ do WHILE"
 
 echo 'Terminei!'
 

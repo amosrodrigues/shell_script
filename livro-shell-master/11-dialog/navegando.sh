@@ -2,15 +2,15 @@
 # navegando.sh - o script que vai e volta
 #
 # Exemplo de como ligar todas as telas do programa entre si,
-# guardando informações de ida e volta. O botão CANCELAR faz
-# voltar para a tela anterior e o OK faz ir à próxima. Para
+# guardando informaÃ§Ãµes de ida e volta. O botÃ£o CANCELAR faz
+# voltar para a tela anterior e o OK faz ir Ã  prÃ³xima. Para
 # sair do programa a qualquer momento basta apertar o ESC.
 #
-# Útil para fazer programas interativos, de contexto, ou que
-# se pode voltar para corrigir informações.
+# Ãštil para fazer programas interativos, de contexto, ou que
+# se pode voltar para corrigir informaÃ§Ãµes.
 #
 # FLUXOGRAMA
-#                    INÍCIO
+#                    INÃCIO
 #                 +-----------+
 #                 | primeira  |--Esc--->---+
 #      .--------> +----Ok-----+            |
@@ -32,9 +32,9 @@ proxima='primeira'
 # loop principal
 while : ; do
 
-	# Aqui é identificada qual tela deve ser mostrada.
-	# Em cada tela são definidas as variáveis 'anterior'
-	# e 'proxima' # que definem os rumos da navegação.
+	# Aqui Ã© identificada qual tela deve ser mostrada.
+	# Em cada tela sÃ£o definidas as variÃ¡veis 'anterior'
+	# e 'proxima' # que definem os rumos da navegaÃ§Ã£o.
 	case "$proxima" in
 		primeira)
 			proxima='nome'
@@ -67,8 +67,8 @@ while : ; do
 				--radiolist 'Estado civil:' 0 0 0 \
 				'solteiro' 'livre leve solto' ON  \
 				'noivo'    'quase amarrado'   OFF \
-				'casado'   'já era'           OFF \
-				'viúvo'    'livre de novo'    OFF )
+				'casado'   'jÃ¡ era'           OFF \
+				'viÃºvo'    'livre de novo'    OFF )
 			;;
 		gostos)
 			anterior='casado'
@@ -76,7 +76,7 @@ while : ; do
 			gostos=$(dialog --stdout \
 				--separate-output                      \
 				--backtitle 'Pegador de Dados'         \
-				--checklist 'Do que você gosta?' 0 0 0 \
+				--checklist 'Do que vocÃª gosta?' 0 0 0 \
 				'jogar futebol'      '' off \
 				'pescar'             '' off \
 				'ir ao shopping'     '' off \
@@ -104,7 +104,7 @@ while : ; do
 			exit
 	esac
 
-	# Aqui é feito o tratamento genérico de Código de Retorno
+	# Aqui Ã© feito o tratamento genÃ©rico de CÃ³digo de Retorno
 	# de todas as telas. Volta para a tela anterior se for
 	# CANCELAR, sai do programa se for ESC.
 	retorno=$?

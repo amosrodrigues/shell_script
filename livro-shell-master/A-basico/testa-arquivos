@@ -3,9 +3,9 @@
 echo -n "Digite o arquivo: "
 read ARQUIVO
 
-test -d "$ARQUIVO" && echo "$ARQUIVO È um diretÛrio"
-test -f "$ARQUIVO" && echo "$ARQUIVO È um arquivo"
+test -d "$ARQUIVO" && echo "$ARQUIVO √© um diret√≥rio"
+test -f "$ARQUIVO" && echo "$ARQUIVO √© um arquivo"
 
-test -f "$ARQUIVO" -o -d "$ARQUIVO" || echo "O arquivo '$ARQUIVO' n„o foi encontrado"
+test -f "$ARQUIVO" -o -d "$ARQUIVO" || echo "O arquivo '$ARQUIVO' n√£o foi encontrado"
 
 echo

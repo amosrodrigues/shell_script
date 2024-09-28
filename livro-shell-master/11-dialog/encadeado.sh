@@ -1,16 +1,16 @@
 #!/bin/bash
-# encadeado.sh - o script que chega até o final
+# encadeado.sh - o script que chega atÃ© o final
 #
 # Exemplo de como encadear telas usando o operador && (AND).
-# Caso o usuário desista em qualquer tela (apertando CANCELAR
-# ou ESC), o script executa o primeiro comando após a cadeia
+# Caso o usuÃ¡rio desista em qualquer tela (apertando CANCELAR
+# ou ESC), o script executa o primeiro comando apÃ³s a cadeia
 # de &&.
 #
-# Útil para fazer programas ou brincadeiras onde só há um
+# Ãštil para fazer programas ou brincadeiras onde sÃ³ hÃ¡ um
 # caminho certo a seguir para chegar ao final.
 #
 # FLUXOGRAMA
-#             INÍCIO
+#             INÃCIO
 #            +-------+
 #            | tela1 |--Cancel/Esc--->---+
 #            +--Ok---+                   |
@@ -25,21 +25,21 @@
 #               FIM
 #
 
-# Função rápida para chamar a caixa YesNo
+# FunÃ§Ã£o rÃ¡pida para chamar a caixa YesNo
 simnao(){
 	dialog --yesno "$*" 0 0
 }
 
-# Aqui começa o encadeamento de telas com o &&.
-# Somente apertando o botão OK vai para a próxima tela.
-# Há um 'exit' no final, que sai do script caso o usuário
-# tenha chegado até o fim da cadeia.
+# Aqui comeÃ§a o encadeamento de telas com o &&.
+# Somente apertando o botÃ£o OK vai para a prÃ³xima tela.
+# HÃ¡ um 'exit' no final, que sai do script caso o usuÃ¡rio
+# tenha chegado atÃ© o fim da cadeia.
 simnao 'Quer continuar?'                    &&
 simnao 'Estamos na segunda tela. Continua?' &&
 simnao 'Terceira. Continua continuando?'    &&
-simnao 'Penúltima tela! E agora, continua?' &&
-echo 'Você chegou até o final!'             && exit
+simnao 'PenÃºltima tela! E agora, continua?' &&
+echo 'VocÃª chegou atÃ© o final!'             && exit
 
-# Este trecho já não faz mais parte do encadeamento e só
-# será alcançado caso o usuário tenha apertado CANCELAR/Esc.
-echo Você desistiu antes de chegar no final...
+# Este trecho jÃ¡ nÃ£o faz mais parte do encadeamento e sÃ³
+# serÃ¡ alcanÃ§ado caso o usuÃ¡rio tenha apertado CANCELAR/Esc.
+echo VocÃª desistiu antes de chegar no final...

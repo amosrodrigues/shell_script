@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # zuser
-# Lista, adiciona e remove usu·rios do sistema Z
+# Lista, adiciona e remove usu√°rios do sistema Z
 #
 # Requisitos: bantex.sh
 #
@@ -10,19 +10,19 @@
 # 2006-10-31 Fulano da Silva
 
 
-# Se n„o passar nenhum argumento, mostra a mensagem de ajuda
+# Se n√£o passar nenhum argumento, mostra a mensagem de ajuda
 [ "$1" ] || {
 	echo
 	echo "Uso: zuser [ lista | adiciona | remove ]"
 	echo
-	echo "   lista    - Lista todos os usu·rios do sistema"
-	echo "   adiciona - Adiciona um usu·rio novo no sistema"
-	echo "   remove   - Remove um usu·rio do sistema"
+	echo "   lista    - Lista todos os usu√°rios do sistema"
+	echo "   adiciona - Adiciona um usu√°rio novo no sistema"
+	echo "   remove   - Remove um usu√°rio do sistema"
 	echo
 	exit 0
 }
 
-# LocalizaÁ„o do arquivo do banco de dados
+# Localiza√ß√£o do arquivo do banco de dados
 BANCO=usuarios.txt
 
 # Inclui o gerenciador do banco
@@ -40,27 +40,27 @@ case "$1" in
 	;;
 
 	adiciona)
-		echo -n "Digite o login do usu·rio novo: "
+		echo -n "Digite o login do usu√°rio novo: "
 		read login
 		
 		# Temos algo?
 		[ "$login" ] || {
-			echo "O login n„o pode ser vazio, tente novamente."
+			echo "O login n√£o pode ser vazio, tente novamente."
 			exit 1
 		}
 		
-		# Primeiro confere se j· n„o existe esse usu·rio
+		# Primeiro confere se j√° n√£o existe esse usu√°rio
 		tem_chave "$login" && {
-			echo "O usu·rio '$login' j· foi cadastrado."
+			echo "O usu√°rio '$login' j√° foi cadastrado."
 			exit 1
 		}
 		
-		# Ok, È um usu·rio novo, prossigamos
+		# Ok, √© um usu√°rio novo, prossigamos
 		echo -n "Digite o nome completo: "
 		read nome
 		echo -n "Digite a idade: "
 		read idade
-		echo -n "… do sexo masculino ou feminino? [MF] "
+		echo -n "√â do sexo masculino ou feminino? [MF] "
 		read sexo
 		echo
 		
@@ -73,12 +73,12 @@ case "$1" in
 	;;
 
 	remove)
-		# Primeiro mostra a lista de usu·rios, depois pergunta
-		echo "Lista dos usu·rios do sistema Z:"
+		# Primeiro mostra a lista de usu√°rios, depois pergunta
+		echo "Lista dos usu√°rios do sistema Z:"
 		pega_campo 1 | sed 1d | tr \\n ' '
 		echo
 		echo
-		echo -n "Qual usu·rio vocÍ quer remover? "
+		echo -n "Qual usu√°rio voc√™ quer remover? "
 		read login
 		echo
 		
@@ -86,14 +86,14 @@ case "$1" in
 		if tem_chave "$login"; then
 			apaga_registro "$login"
 		else
-			echo "N„o, n„o, esse usu·rio n„o est· aqui..."
+			echo "N√£o, n√£o, esse usu√°rio n√£o est√° aqui..."
 		fi
 		echo
 	;;
 
 	*)
-		# Qualquer outra opÁ„o È erro
-		echo "OpÁ„o inv·lida $1"
+		# Qualquer outra op√ß√£o √© erro
+		echo "Op√ß√£o inv√°lida $1"
 		exit 1
 	;;
 esac

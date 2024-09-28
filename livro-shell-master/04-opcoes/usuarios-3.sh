@@ -1,24 +1,24 @@
 #!/bin/bash
 # usuarios.sh
 #
-# Mostra os logins e nomes de usu·rios do sistema
-# Obs.: LÍ dados do arquivo /etc/passwd
+# Mostra os logins e nomes de usu√°rios do sistema
+# Obs.: L√™ dados do arquivo /etc/passwd
 #
-# Vers„o 1: Mostra usu·rios e nomes separados por TAB
-# Vers„o 2: Adicionado suporte ‡ opÁ„o -h
-# Vers„o 3: Adicionado suporte ‡ opÁ„o -V e opÁıes inv·lidas
+# Vers√£o 1: Mostra usu√°rios e nomes separados por TAB
+# Vers√£o 2: Adicionado suporte √† op√ß√£o -h
+# Vers√£o 3: Adicionado suporte √† op√ß√£o -V e op√ß√µes inv√°lidas
 #
-# AurÈlio, Novembro de 2007
+# Aur√©lio, Novembro de 2007
 #
 
 MENSAGEM_USO="
 Uso: $0 [-h | -V]
 
   -h		Mostra esta tela de ajuda e sai
-  -V		Mostra a vers„o do programa e sai
+  -V		Mostra a vers√£o do programa e sai
 "
 
-# Tratamento das opÁıes de linha de comando
+# Tratamento das op√ß√µes de linha de comando
 case "$1" in
 	-h)
 		echo "$MENSAGEM_USO"
@@ -26,12 +26,12 @@ case "$1" in
 	;;
 
 	-V)
-		echo $0 Vers„o 3
+		echo $0 Vers√£o 3
 		exit 0
 	;;
 
 	*)
-		echo OpÁ„o inv·lida: $1
+		echo Op√ß√£o inv√°lida: $1
 		exit 1
 	;;
 esac

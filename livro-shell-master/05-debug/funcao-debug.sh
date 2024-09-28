@@ -7,7 +7,7 @@ Debug(){
 		1) prefixo="-- ";;
 		2) prefixo="---- ";;
 		3) prefixo="------ ";;
-		*) echo "Mensagem n„o categorizada: $*"; return;;
+		*) echo "Mensagem n√£o categorizada: $*"; return;;
 	esac
 	shift
 

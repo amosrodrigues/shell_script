@@ -1,7 +1,7 @@
 #!/bin/bash
 # cinco.sh
 #
-# Conta até cinco :)
+# Conta atÃ© cinco :)
 
 set -v        # liga debug de linhas
 echo $((0+1))

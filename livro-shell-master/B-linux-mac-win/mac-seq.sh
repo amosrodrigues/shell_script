@@ -1,4 +1,4 @@
-# Implementação do comando seq no Mac OS X
+# ImplementaÃ§Ã£o do comando seq no Mac OS X
 seq ()
 {
 	local inicio=1 fim=1 passo=1 sep
@@ -10,12 +10,12 @@ seq ()
 		shift 2
 	fi
 	
-	# Guarde os números da seqüência
+	# Guarde os nÃºmeros da seqÃ¼Ãªncia
 	test $# -eq 1 && fim=$1
 	test $# -eq 2 && inicio=$1 fim=$2
 	test $# -eq 3 && inicio=$1 passo=$2 fim=$3
 	
-	# Mostre a seqüência
+	# Mostre a seqÃ¼Ãªncia
 	if test "$sep"
 	then
 		jot -s $sep - $inicio $fim $passo

@@ -7,6 +7,6 @@ config() {
 
 # Uso: config chave arquivo.conf
 
-# Ou ainda, a versão com um único comando sed:
+# Ou ainda, a versÃ£o com um Ãºnico comando sed:
 
 config2() { sed -n "s/^[[:blank:]]*$1[[:blank:]]\+//p" "$2"; }

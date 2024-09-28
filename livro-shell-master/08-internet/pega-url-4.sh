@@ -1,8 +1,8 @@
 #!/bin/bash
 # pega-url-4.sh
-# Extrai o endereço de um link HTML
+# Extrai o endereÃ§o de um link HTML
 #
-# Aurélio, Agosto de 2006
+# AurÃ©lio, Agosto de 2006
 
 TEXTO="Google"
 

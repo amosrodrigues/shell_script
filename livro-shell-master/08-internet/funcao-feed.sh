@@ -1,5 +1,5 @@
-# Função feed: Extrai as manchetes mais recentes de um Feed
-# Passe o endereço do feed como argumento
+# FunÃ§Ã£o feed: Extrai as manchetes mais recentes de um Feed
+# Passe o endereÃ§o do feed como argumento
 # Exemplo: feed http://br-linux.org/feed/
 #
 feed() {

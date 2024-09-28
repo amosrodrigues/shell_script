@@ -1,37 +1,37 @@
 # bantex.sh - Gerenciador do Banco Textual
 #
-# Biblioteca de funções para gerenciar os dados do banco textual.
+# Biblioteca de funÃ§Ãµes para gerenciar os dados do banco textual.
 # Use o comando "source" para inclui-la em seu script.
 #
 # 2006-10-31 Fulano da Silva
 
-#--------------------------------[ configuração ]-----------------------------
+#--------------------------------[ configuraÃ§Ã£o ]-----------------------------
 
-TEMP=temp.$$              # arquivo temporário
+TEMP=temp.$$              # arquivo temporÃ¡rio
 
 
-#----------------------------------[ funções ]--------------------------------
+#----------------------------------[ funÃ§Ãµes ]--------------------------------
 
-# O arquivo texto com o banco já deve estar definido
+# O arquivo texto com o banco jÃ¡ deve estar definido
 [ "$BANCO" ] || {
-	echo "Base de dados não informada. Use a variável BANCO."
+	echo "Base de dados nÃ£o informada. Use a variÃ¡vel BANCO."
 	return 1
 }
 
 # O arquivo deve poder ser lido e gravado
 [ -r "$BANCO" -a -w "$BANCO" ] || {
-	echo "Base travada, confira as permissões de leitura e escrita."
+	echo "Base travada, confira as permissÃµes de leitura e escrita."
 	return 1
 }
 
-# Verifica se a chave $1 está no banco
+# Verifica se a chave $1 estÃ¡ no banco
 tem_chave() {
 	grep -iw -q "^$1" "$BANCO"
 }
 
 # Apaga o registro da chave $1 do banco
 apaga_registro() {
-	tem_chave "$1" || return                     # se não tem, nem tente
+	tem_chave "$1" || return                     # se nÃ£o tem, nem tente
 	grep -iw -v "^$1" "$BANCO" > "$TEMP"         # apaga a chave
 	mv "$TEMP" "$BANCO"                          # regrava o banco
 	echo "O registro '$1' foi apagado"
@@ -42,7 +42,7 @@ insere_registro() {
 	local chave=$(echo "$1" | cut -f1)   # pega primeiro campo
 
 	if tem_chave "$chave"; then
-		echo "A chave '$chave' já está cadastrada no banco."
+		echo "A chave '$chave' jÃ¡ estÃ¡ cadastrada no banco."
 		return 1
 	else                                         # chave nova
 		echo "$*" >> "$BANCO"                     # grava o registro
@@ -51,7 +51,7 @@ insere_registro() {
 	return 0
 }
 
-# Mostra o valor do campo número $1 do registro de chave $2 (opcional)
+# Mostra o valor do campo nÃºmero $1 do registro de chave $2 (opcional)
 pega_campo() {
 	local chave=${2:-.*}
 	grep -iw "^$chave" "$BANCO" | cut -f $1
@@ -66,10 +66,10 @@ campos() {
 mostra_registro() {
 	local dados=$(grep -iw "^$1" "$BANCO")
 	local i=0
-	[ "$dados" ] || return                       # não achei
+	[ "$dados" ] || return                       # nÃ£o achei
 	campos | while read campo; do                # para cada campo...
-		i=$((i+1))                                # índice do campo
+		i=$((i+1))                                # Ã­ndice do campo
 		echo -n "$campo: "                        # nome do campo
-		echo "$dados" | cut -f $i                 # conteúdo do campo
+		echo "$dados" | cut -f $i                 # conteÃºdo do campo
 	done
 }

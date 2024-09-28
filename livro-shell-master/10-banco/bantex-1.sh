@@ -1,22 +1,22 @@
 # bantex.sh - Gerenciador do Banco Textual
 #
-# Biblioteca de funÁıes para gerenciar os dados do banco textual.
+# Biblioteca de fun√ß√µes para gerenciar os dados do banco textual.
 # Use o comando "source" para inclui-la em seu script.
 #
 # 2006-10-31 Fulano da Silva
 #
 
-#--------------------------------[ configuraÁ„o ]-----------------------------
+#--------------------------------[ configura√ß√£o ]-----------------------------
 
-SEP=:                     # defina aqui o separador, padr„o È :
-TEMP=temp.$$              # arquivo tempor·rio
+SEP=:                     # defina aqui o separador, padr√£o √© :
+TEMP=temp.$$              # arquivo tempor√°rio
 
 
-#----------------------------------[ funÁıes ]--------------------------------
+#----------------------------------[ fun√ß√µes ]--------------------------------
 
-# O arquivo texto com o banco j· deve estar definido
+# O arquivo texto com o banco j√° deve estar definido
 [ "$BANCO" ] || {
-	echo "Base de dados n„o informada. Use a vari·vel BANCO."
+	echo "Base de dados n√£o informada. Use a vari√°vel BANCO."
 	return 1
 }
 

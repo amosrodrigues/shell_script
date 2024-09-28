@@ -1,7 +1,7 @@
 #!/bin/bash
 # cinco.sh
 #
-# Conta até cinco :)
+# Conta atÃ© cinco :)
 
 set -x           # liga debug
 trap read DEBUG  # liga passo a passo

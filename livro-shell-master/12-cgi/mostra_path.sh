@@ -1,10 +1,10 @@
 #!/bin/bash
 # mostra_path.sh
 
-# Adiciona um diretÛrio falso ao PATH
+# Adiciona um diret√≥rio falso ao PATH
 PATH=$PATH:/noel
 
-# Para cada diretÛrio do $PATH...
+# Para cada diret√≥rio do $PATH...
 IFS=:
 for diretorio in $PATH; do
 	
@@ -12,7 +12,7 @@ for diretorio in $PATH; do
 	if test -d $diretorio; then
 		extra="existe"
 	else
-		extra="n„o existe"
+		extra="n√£o existe"
 	fi
 	
 	# E mostre o resultado na tela

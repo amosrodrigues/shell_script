@@ -1,23 +1,23 @@
 #!/bin/bash
 # grita.sh
 #
-# Mostra uma palavra ($TXT) em maiúsculas e com exclamações
+# Mostra uma palavra ($TXT) em maiÃºsculas e com exclamaÃ§Ãµes
 # Exemplo: foo -> !!!!!FOO!!!!!
 
-DEBUG=1                         # depuração: 0 desliga, 1 liga
+DEBUG=1                         # depuraÃ§Ã£o: 0 desliga, 1 liga
 
-# Função de depuração
+# FunÃ§Ã£o de depuraÃ§Ã£o
 Debug(){
 	[ "$DEBUG" = 1 ] && echo "$*"
 }
 
 TXT="gritaria"
 
-TXT="     $TXT     "            # Adiciona 5 espaços ao redor
+TXT="     $TXT     "            # Adiciona 5 espaÃ§os ao redor
 
-Debug "TXT com espaços    : [$TXT]"
-TXT=$(echo $TXT | tr ' ' '!')   # Troca os espaços por exclamações
-Debug "TXT com exclamações: [$TXT]"
+Debug "TXT com espaÃ§os    : [$TXT]"
+TXT=$(echo $TXT | tr ' ' '!')   # Troca os espaÃ§os por exclamaÃ§Ãµes
+Debug "TXT com exclamaÃ§Ãµes: [$TXT]"
 
-TXT=$(echo $TXT | tr a-z A-Z)   # Deixa o texto em maiúsculas
+TXT=$(echo $TXT | tr a-z A-Z)   # Deixa o texto em maiÃºsculas
 echo "$TXT"                     # Mostra a mensagem

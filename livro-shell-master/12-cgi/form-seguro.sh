@@ -1,20 +1,20 @@
 #!/bin/bash
 # form.sh
 
-# Vamos mostrar uma p·gina HTML
+# Vamos mostrar uma p√°gina HTML
 echo Content-type: text/html
 echo
 
-# FunÁ„o para decodificar acentos e sÌmbolos na tripa
-# Exemplo: "%E3" vira "·"
-# Obs.: Remove os caracteres $ e ` por seguranÁa
+# Fun√ß√£o para decodificar acentos e s√≠mbolos na tripa
+# Exemplo: "%E3" vira "√°"
+# Obs.: Remove os caracteres $ e ` por seguran√ßa
 urldecode() {
 	echo -e $(sed 's/%/\\x/g') | tr -d '$`'
 }
 
 ########## PARTE 1 - Extrair os dados
 
-# LÍ os dados do formul·rio via STDIN
+# L√™ os dados do formul√°rio via STDIN
 read TRIPA
 
 # Usa o IFS para separar os pares de campo=valor
@@ -28,7 +28,7 @@ for nome_valor; do
 	nome_campo=$( echo "$nome_valor" | cut -d= -f1)
 	valor_campo=$(echo "$nome_valor" | cut -d= -f2 | tr + ' ' | urldecode)
 
-	# Usa o eval para guardar em uma vari·vel
+	# Usa o eval para guardar em uma vari√°vel
 	# Ex.: eval idade="18-30"
 	eval $nome_campo=\"$valor_campo\"
 done

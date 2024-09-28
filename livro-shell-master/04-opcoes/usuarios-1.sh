@@ -1,10 +1,10 @@
 #!/bin/bash
 # usuarios.sh
 #
-# Mostra os logins e nomes de usuários do sistema
-# Obs.: Lê dados do arquivo /etc/passwd
+# Mostra os logins e nomes de usuÃ¡rios do sistema
+# Obs.: LÃª dados do arquivo /etc/passwd
 #
-# Aurélio, Novembro de 2007
+# AurÃ©lio, Novembro de 2007
 #
 
 cut -d : -f 1,5 /etc/passwd | tr : \\t

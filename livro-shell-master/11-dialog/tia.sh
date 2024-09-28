@@ -2,16 +2,16 @@
 # tia.sh - o script da tia que precisa usar o computador
 #
 # Exemplo de como amarrar o script em um menu principal usando
-# o 'while'. O 'case' é usado para identificar qual foi a ação
-# escolhida. Após cada ação, ele sempre retorna ao menu
-# principal. Só sai do script caso escolha a última opção,
+# o 'while'. O 'case' Ã© usado para identificar qual foi a aÃ§Ã£o
+# escolhida. ApÃ³s cada aÃ§Ã£o, ele sempre retorna ao menu
+# principal. SÃ³ sai do script caso escolha a Ãºltima opÃ§Ã£o,
 # aperte CANCELAR ou ESC.
 #
-# Útil para usar como login shell de pessoas inexperientes ou
-# fazer utilitários de ações restritas e definidas.
+# Ãštil para usar como login shell de pessoas inexperientes ou
+# fazer utilitÃ¡rios de aÃ§Ãµes restritas e definidas.
 #
 # FLUXOGRAMA
-#                      INÍCIO                    FIM
+#                      INÃCIO                    FIM
 #                   +-----------+            +----------+
 #          +------> |    menu   |--Esc-----> |  sai do  |
 #          |        | principal |--Cancel--> | programa |
@@ -22,22 +22,22 @@
 # Loop que mostra o menu principal
 while : ; do
 
-	# Mostra o menu na tela, com as ações disponíveis
+	# Mostra o menu na tela, com as aÃ§Ãµes disponÃ­veis
 	resposta=$(
 		dialog --stdout            \
 			--title 'Menu da Tia'   \
-			--menu 'Oi Tia, escolha o que você quer fazer:' \
+			--menu 'Oi Tia, escolha o que vocÃª quer fazer:' \
 			0 0 0                   \
 			1 'Navegar na Internet' \
 			2 'Escrever uma carta'  \
-			3 'Jogar paciência'     \
+			3 'Jogar paciÃªncia'     \
 			4 'Perder tempo'        \
 			0 'Sair'                )
 
-	# Ela apertou CANCELAR ou ESC, então vamos sair...
+	# Ela apertou CANCELAR ou ESC, entÃ£o vamos sair...
 	[ $? -ne 0 ] && break
 
-	# De acordo com a opção escolhida, dispara programas
+	# De acordo com a opÃ§Ã£o escolhida, dispara programas
 	case "$resposta" in
 		1) firefox 'http://google.com.br' ;;
 		2) nano /tmp/carta.txt ;;

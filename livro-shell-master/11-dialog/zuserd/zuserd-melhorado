@@ -1,16 +1,16 @@
 #!/bin/bash
 #
 # zuserd
-# Lista, adiciona e remove usu·rios do sistema Z
+# Lista, adiciona e remove usu√°rios do sistema Z
 #
 # Requisitos: bantex.sh, dialog
 #
-# 2006-10-31 v1 Fulano da Silva: Vers„o inicial
+# 2006-10-31 v1 Fulano da Silva: Vers√£o inicial
 # 2006-10-31 v2 Fulano da Silva:
-#   - Tratamento do ESC e dos botıes Cancelar
-#   - AplicaÁ„o agora roda em loop
+#   - Tratamento do ESC e dos bot√µes Cancelar
+#   - Aplica√ß√£o agora roda em loop
 
-# LocalizaÁ„o do arquivo do banco de dados
+# Localiza√ß√£o do arquivo do banco de dados
 BANCO=usuarios.txt
 
 # Inclui o gerenciador do banco
@@ -22,12 +22,12 @@ source bantex.sh || {
 while :
 do
 	acao=$( dialog --stdout \
-		--title " Aplicativo Zuserd - Interface amig·vel " \
+		--title " Aplicativo Zuserd - Interface amig√°vel " \
 		--menu "" \
 		0 0 0 \
-		lista "Lista todos os usu·rios do sistema" \
-		adiciona "Adiciona um usu·rio novo no sistema" \
-		remove "Remove um usu·rio do sistema")
+		lista "Lista todos os usu√°rios do sistema" \
+		adiciona "Adiciona um usu√°rio novo no sistema" \
+		remove "Remove um usu√°rio do sistema")
 	[ $? -ne 0 ] && exit
 
 	# Lida com os comandos recebidos
@@ -37,7 +37,7 @@ do
 		# Lista dos logins (apaga a primeira linha)
 		temp=$(mktemp -t lixo)
 		pega_campo 1 | sed 1d > "$temp"
-		dialog --title "Usu·rios" --textbox "$temp" 13 30
+		dialog --title "Usu√°rios" --textbox "$temp" 13 30
 		rm $temp
 	;;
 
@@ -46,14 +46,14 @@ do
 		[ $? -ne 0 ] && continue
 		[ "$login" ] || continue
 
-		# Primeiro confere se j· n„o existe esse usu·rio
+		# Primeiro confere se j√° n√£o existe esse usu√°rio
 		tem_chave "$login" && {
-			msg="O usu·rio '$login' j· foi cadastrado."
+			msg="O usu√°rio '$login' j√° foi cadastrado."
 			dialog --msgbox "$msg" 6 40
 			continue
 		}
 		
-		# Ok, È um usu·rio novo, prossigamos
+		# Ok, √© um usu√°rio novo, prossigamos
 		nome=$(dialog --stdout --inputbox "Nome completo:" 0 0)
 		[ $? -ne 0 ] && continue
 		
@@ -74,12 +74,12 @@ do
 	;;
 
 	remove)
-		# ObtÈm a lista de usu·rios
+		# Obt√©m a lista de usu√°rios
 		usuarios=$(pega_campo 1,2 | sed 1d)
 		usuarios=$(echo "$usuarios" | sed 's/:/ "/;s/$/"/')
 
 		login=$(eval dialog --stdout \
-			--menu \"Escolha o usu·rio a remover\" \
+			--menu \"Escolha o usu√°rio a remover\" \
 			0 0 0 $usuarios)
 		[ $? -ne 0 ] && continue
 

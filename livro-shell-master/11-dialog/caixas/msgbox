@@ -1,4 +1,4 @@
 dialog                                            \
-   --title 'Parabéns'                             \
-   --msgbox 'Instalação finalizada com sucesso.'  \
+   --title 'ParabÃ©ns'                             \
+   --msgbox 'InstalaÃ§Ã£o finalizada com sucesso.'  \
    6 40

@@ -2,34 +2,34 @@
 #
 # mensagem.sh
 # Mostra uma mensagem colorida na tela, lendo os
-# dados de um arquivo de configuração externo.
+# dados de um arquivo de configuraÃ§Ã£o externo.
 #
 # 2006-10-31 Fulano da Silva
 
-CONFIG="mensagem.conf"            # Arquivo de configuração
+CONFIG="mensagem.conf"            # Arquivo de configuraÃ§Ã£o
 
-# Configurações (serão lidas do $CONFIG)
+# ConfiguraÃ§Ãµes (serÃ£o lidas do $CONFIG)
 USAR_CORES=0                      # config: UsarCores
 COR_LETRA=                        # config: CorLetra
 COR_FUNDO=                        # config: CorFundo
-MENSAGEM='Mensagem padrão'        # config: Mensagem
+MENSAGEM='Mensagem padrÃ£o'        # config: Mensagem
 
-# Carregando a configuração do arquivo externo
+# Carregando a configuraÃ§Ã£o do arquivo externo
 eval $(./parser.sh $CONFIG)
 
 # Processando os valores
 [ "$(echo $CONF_USARCORES | tr A-Z a-z)" = 'on' ] && USAR_CORES=1
-COR_FUNDO=$(echo $CONF_CORFUNDO | tr -d -c 0-9) # só números
-COR_LETRA=$(echo $CONF_CORLETRA | tr -d -c 0-9) # só números
+COR_FUNDO=$(echo $CONF_CORFUNDO | tr -d -c 0-9) # sÃ³ nÃºmeros
+COR_LETRA=$(echo $CONF_CORLETRA | tr -d -c 0-9) # sÃ³ nÃºmeros
 [ "$CONF_MENSAGEM" ] && MENSAGEM=$CONF_MENSAGEM
 
-# Configurações lidas, mostre a mensagem
+# ConfiguraÃ§Ãµes lidas, mostre a mensagem
 
 if [ $USAR_CORES -eq 1 ]; then
 	# Mostrar mensagem colorida
-	# Exemplo: \033[40;32mOlá\033[m
+	# Exemplo: \033[40;32mOlÃ¡\033[m
 	echo -e "\033[$COR_FUNDO;${COR_LETRA}m$MENSAGEM\033[m"
 else
-	# Não usar cores
+	# NÃ£o usar cores
 	echo "$MENSAGEM"
 fi

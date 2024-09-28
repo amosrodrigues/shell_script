@@ -1,14 +1,14 @@
 #!/bin/bash
 # form.sh
 
-# Vamos mostrar uma página HTML
+# Vamos mostrar uma pÃ¡gina HTML
 echo Content-type: text/html
 echo
 
 echo "<H1>Os dados enviados foram:</H1>"
 echo "<PRE>"
 
-# Lê os dados do formulário via STDIN
+# LÃª os dados do formulÃ¡rio via STDIN
 read TRIPA
 
 # Mostra os dados na tela

@@ -1,16 +1,16 @@
 #!/bin/bash
 # brlinux-2008-3.sh
-# Mostra as 5 últimas manchetes do BR-Linux
-# Versão 3 que procura no Feed XML
+# Mostra as 5 Ãºltimas manchetes do BR-Linux
+# VersÃ£o 3 que procura no Feed XML
 #
-# Aurélio, Março de 2008
+# AurÃ©lio, MarÃ§o de 2008
 
 URL="http://br-linux.org/feed/"
 
-# O padrão são linhas com "<title>".
+# O padrÃ£o sÃ£o linhas com "<title>".
 # O sed remove as tags HTML, restaura as aspas,
-# apaga os espaços do início e remove a primera linha.
-# O head limita o número de manchetes em 5.
+# apaga os espaÃ§os do inÃ­cio e remove a primera linha.
+# O head limita o nÃºmero de manchetes em 5.
 #
 lynx -source "$URL" |
 	grep '<title>' |

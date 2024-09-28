@@ -4,5 +4,5 @@ um
 dois
 Dois
 DOIS
-três
+trÃªs
 um

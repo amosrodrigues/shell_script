@@ -1,9 +1,9 @@
 #!/bin/bash
-echo "Data e Hor·rio:"
+echo "Data e Hor√°rio:"
 date
 echo
 echo "Uso do disco:"
 df
 echo
-echo "Usu·rios conectados:"
+echo "Usu√°rios conectados:"
 w

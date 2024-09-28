@@ -1,6 +1,6 @@
 #!/bin/bash
 # sirene.sh
-# Bom para chamar a atenção dos colegas de trabalho :)
+# Bom para chamar a atenÃ§Ã£o dos colegas de trabalho :)
 
 echo -ne "\033[11;900]"   # Cada bipe dura quase um segundo
 while :                   # Loop eterno

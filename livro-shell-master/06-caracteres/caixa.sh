@@ -14,13 +14,13 @@
 #             | recebido |
 #             +----------+
 #
-# A separaÁ„o do cÛdigo em dois passos permite personalizar
+# A separa√ß√£o do c√≥digo em dois passos permite personalizar
 # separadamente a caixa e o texto, podendo-se facilmente
-# adicionar cores ou fazer outras formataÁıes.
+# adicionar cores ou fazer outras formata√ß√µes.
 #
 
 
-# ConfiguraÁ„o do usu·rio
+# Configura√ß√£o do usu√°rio
 caixa_largura=60
 caixa_coluna_inicio=5
 caixa_linha_inicio=5
@@ -31,9 +31,9 @@ texto_cor='32'
 #caixa_cor='33;43'      # descomente essa linha para uma surpresa!
 
 #---------------------------------------------------------------------
-# Daqui para baixo n„o mexa
+# Daqui para baixo n√£o mexa
 
-### ConfiguraÁ„o Din‚mica
+### Configura√ß√£o Din√¢mica
 caixa_coluna_fim=$((   caixa_coluna_inicio+caixa_largura-1))
 texto_coluna_inicio=$((caixa_coluna_inicio+distancia_borda_texto+1))
 texto_largura=$((      caixa_largura-distancia_borda_texto))
@@ -43,12 +43,12 @@ total_linhas=$((       num_linhas+2))    # texto + bordas horizontais
 
 ### Checagem do tamanho do texto
 if [ $num_linhas -gt $texto_max_linhas ];then
-	echo "Texto muito extenso, n„o vai caber na tela"
+	echo "Texto muito extenso, n√£o vai caber na tela"
 	exit 1
 fi
 
-### Compıe a linha horizontal da caixa
-# … $caixa_largura-2 porque os "cantos" ser„o feitos com o +
+### Comp√µe a linha horizontal da caixa
+# √â $caixa_largura-2 porque os "cantos" ser√£o feitos com o +
 for i in $(seq $((caixa_largura-2))); do
 	linha_caixa="$linha_caixa-"
 done
@@ -61,9 +61,9 @@ echo -ne "\033[$caixa_linha_inicio;0H"       # pula p/a linha inicial
 echo -ne "\033[${caixa_cor}m"                # liga a cor da caixa
 for i in $(seq $total_linhas); do            # para cada linha...
 	echo -ne "\033[${caixa_coluna_inicio}G"       # vai p/coluna inicial
-	if [ $i -eq 1 -o $i -eq $total_linhas ]; then # 1a ou ˙ltima linha
+	if [ $i -eq 1 -o $i -eq $total_linhas ]; then # 1a ou √∫ltima linha
 		echo +$linha_caixa+                   # borda horizontal
-	else                                          # sen„o
+	else                                          # sen√£o
 		echo -e "|\033[${caixa_coluna_fim}G|" # bordas verticais
 	fi
 done

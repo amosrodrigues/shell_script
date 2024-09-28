@@ -1,20 +1,20 @@
 #!/bin/bash
 # mostra_path_lista_cor.sh
 
-# Vamos mostrar uma página HTML
+# Vamos mostrar uma pÃ¡gina HTML
 echo Content-type: text/html
 echo
 
-# Adiciona um diretório falso ao PATH
+# Adiciona um diretÃ³rio falso ao PATH
 PATH=$PATH:/noel
 
-# Título da página
+# TÃ­tulo da pÃ¡gina
 echo "<h1>Componentes de seu PATH</h1>"
 
 # Inicia uma lista de itens
 echo "<UL>"
 
-# Para cada diretório do $PATH...
+# Para cada diretÃ³rio do $PATH...
 IFS=:
 for diretorio in $PATH; do
 	
@@ -22,7 +22,7 @@ for diretorio in $PATH; do
 	if test -d $diretorio; then
 		extra='<FONT COLOR="green">existe</FONT>'
 	else
-		extra='<FONT COLOR="red">não existe</FONT>'
+		extra='<FONT COLOR="red">nÃ£o existe</FONT>'
 	fi
 	
 	# E mostre o resultado na tela (item da lista)

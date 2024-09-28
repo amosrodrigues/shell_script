@@ -1,28 +1,28 @@
 #!/bin/bash
 # parser.sh
-# LÍ arquivos de configuraÁ„o e converte os dados para
-# vari·veis do shell na saÌda padr„o.
+# L√™ arquivos de configura√ß√£o e converte os dados para
+# vari√°veis do shell na sa√≠da padr√£o.
 #
 # 2006-10-31 Fulano da Silva
 #
 
-# O arquivo de configuraÁ„o È indicado na linha de comando
+# O arquivo de configura√ß√£o √© indicado na linha de comando
 CONFIG=$1
 
-# O arquivo deve existir e ser legÌvel
+# O arquivo deve existir e ser leg√≠vel
 if [ -z "$CONFIG" ]; then
 	echo Uso: parser arquivo.conf
 	exit 1
 elif [ ! -r "$CONFIG" ]; then
-	echo Erro: N„o consigo ler o arquivo $CONFIG
+	echo Erro: N√£o consigo ler o arquivo $CONFIG
 	exit 1
 fi
 
-# Loop para ler linha a linha a configuraÁ„o, guardando em $LINHA
+# Loop para ler linha a linha a configura√ß√£o, guardando em $LINHA
 # Dica: Use $LINHA sem "aspas" para remover os brancos
 while read LINHA; do
 
-	# Ignorando as linhas de coment·rio
+	# Ignorando as linhas de coment√°rio
 	[ "$(echo $LINHA | cut -c1)" = '#' ] && continue
 
 	# Ignorando as linhas em branco
@@ -31,12 +31,12 @@ while read LINHA; do
 	# Guardando cada palavra da linha em $1, $2, $3, ...
 	set - $LINHA
 	
-	# Extraindo os dados (chaves sempre mai˙sculas)
+	# Extraindo os dados (chaves sempre mai√∫sculas)
 	chave=$(echo $1 | tr a-z A-Z)
 	shift
 	valor=$*
 	
-	# Mostrando chave="valor" na saÌda padr„o
+	# Mostrando chave="valor" na sa√≠da padr√£o
 	echo "CONF_$chave=\"$valor\""
 
 done < "$CONFIG"

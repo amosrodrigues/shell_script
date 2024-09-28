@@ -1,7 +1,7 @@
 
-    Visite também: UnderLinux ·  VivaOLinux ·  LinuxSecurity ·  Dicas-L ·
-     NoticiasLinux ·  SoftwareLivre.org ·  [mais] ·  Efetividade ·  Linux
-                                                     in Brazil ·  Floripa
+    Visite tambÃ©m: UnderLinux Â·  VivaOLinux Â·  LinuxSecurity Â·  Dicas-L Â·
+     NoticiasLinux Â·  SoftwareLivre.org Â·  [mais] Â·  Efetividade Â·  Linux
+                                                     in Brazil Â·  Floripa
 
    MatrixIDC 
 
@@ -9,17 +9,17 @@ BR-Linux.org BR-Linux.org
 
      * Capa
      * Download
-     * Enviar notícia
+     * Enviar notÃ­cia
      * Termos de uso
      * Contato
 
      * Compatibilidade
      * Download Linux
      * FAQ Linux
-     * O que é Linux
-     * Qual a melhor distribuição
+     * O que Ã© Linux
+     * Qual a melhor distribuiÃ§Ã£o
 
-Navegação
+NavegaÃ§Ã£o
 
      * Novos textos
 
@@ -33,13 +33,13 @@ User login
 
 Destaques de hoje no BR-Linux
 
-     * Fim do Kurumin? Ainda não. Alguém se habilita?
+     * Fim do Kurumin? Ainda nÃ£o. AlguÃ©m se habilita?
      * Os primeiros testes com o "nosso" Classmate
      * A semana no BR-Linux: 11 anos de BR-Linux!
-     * 11 anos de BR-Linux - parabéns! - e mais sobre o "nosso" Eee PC
-     * 11 anos de BR-Linux: Já podemos torcer pelo "nosso" (talvez "seu")
+     * 11 anos de BR-Linux - parabÃ©ns! - e mais sobre o "nosso" Eee PC
+     * 11 anos de BR-Linux: JÃ¡ podemos torcer pelo "nosso" (talvez "seu")
        Eee PC
-     * Kurumin Linux: haverá uma próxima versão?
+     * Kurumin Linux: haverÃ¡ uma prÃ³xima versÃ£o?
 
      o Participe da pesquisa nacional de compatibilidade 2007
    o Divulgue a pesquisa e concorra a MP4, VoIP, mochilas e mais!
@@ -49,194 +49,194 @@ Instalando o modem Motorola SM56 "manualmente"
 
    Seg, 19/11/2007 - 10:30
 
-     "Se você procurar por material sobre o Motorola SM56 para
-     GNU/Linux, você encontrará muitos depoimentos de dor de cabeça e
-     dificuldades para configuração. A empresa produziu um driver que
-     funciona apenas para a versão 2.4 do kernel.
+     "Se vocÃª procurar por material sobre o Motorola SM56 para
+     GNU/Linux, vocÃª encontrarÃ¡ muitos depoimentos de dor de cabeÃ§a e
+     dificuldades para configuraÃ§Ã£o. A empresa produziu um driver que
+     funciona apenas para a versÃ£o 2.4 do kernel.
 
      Por conta disso, quando o blog Zumo noticiou que, em seus testes, o
-     Ubuntu Gutsy reconheceu o modem SM56 e indicou um driver não-livre
-     para ele, houve algum alvoroço na net sobre esta novidade.
+     Ubuntu Gutsy reconheceu o modem SM56 e indicou um driver nÃ£o-livre
+     para ele, houve algum alvoroÃ§o na net sobre esta novidade.
 
-     Agora, se você quer instalar este modem em seu *Ubuntu Gutsy e está
-     sem conexão com a Internet? Como instalar o modem "manualmente"?
-     Você ainda precisará de um computador conectado com a rede, mas
-     apenas para baixar os pacotes necessários e transportá-los ao seu
+     Agora, se vocÃª quer instalar este modem em seu *Ubuntu Gutsy e estÃ¡
+     sem conexÃ£o com a Internet? Como instalar o modem "manualmente"?
+     VocÃª ainda precisarÃ¡ de um computador conectado com a rede, mas
+     apenas para baixar os pacotes necessÃ¡rios e transportÃ¡-los ao seu
      *Ubuntu."
 
-   Enviado por Filipe Saraiva (wolverlipeTHyahoo·com·br) - referência
+   Enviado por Filipe Saraiva (wolverlipeTHyahooÂ·comÂ·br) - referÃªncia
    (liberdadenafronteira.blogspot.com)..
-     * Distribuições
+     * DistribuiÃ§Ãµes
 
    Indicar
      * +Rec6
      * Comentar
 
-Vídeo: Novidades da próxima versão do Compiz Fusion
+VÃ­deo: Novidades da prÃ³xima versÃ£o do Compiz Fusion
 
    Seg, 19/11/2007 - 10:30
 
      "Costumo seguir o gitweb do Compiz Fusion, assim mantenho-me
      atualizado das novidades, compilo alguns plugins experimentais,
      quebro a cara, mando bug reports e contribuo ao meu modo para o
-     avanço do desktop 3d :) Deixo-vos portanto com alguns filmes que
-     fiz com as novidades que ilustram o que teremos na próxima versão
-     estável."
+     avanÃ§o do desktop 3d :) Deixo-vos portanto com alguns filmes que
+     fiz com as novidades que ilustram o que teremos na prÃ³xima versÃ£o
+     estÃ¡vel."
 
-   Enviado por Paulo Dias (paulo·miguel·diasTHgmail·com) - referência
+   Enviado por Paulo Dias (pauloÂ·miguelÂ·diasTHgmailÂ·com) - referÃªncia
    (padoca.wordpress.com)..
-     * Aplicações
+     * AplicaÃ§Ãµes
 
    Indicar
      * +Rec6
      * Comentar
 
-Fim do Kurumin? Ainda não. Alguém se habilita?
+Fim do Kurumin? Ainda nÃ£o. AlguÃ©m se habilita?
 
    Seg, 19/11/2007 - 10:23
 
-   Leia também: Kurumin Linux: haverá uma próxima versão?
+   Leia tambÃ©m: Kurumin Linux: haverÃ¡ uma prÃ³xima versÃ£o?
 
-     "Tendo em vista a repercussão da noticia anterior sobre o possível
+     "Tendo em vista a repercussÃ£o da noticia anterior sobre o possÃ­vel
      fim do Kurumin, Carlos Morimoto voltou a falar do assunto, deu
-     algumas respostas a questionamentos e sugestões feitas por usuários
+     algumas respostas a questionamentos e sugestÃµes feitas por usuÃ¡rios
      e simpatizantes. Assim resolvi escrever novamente sobre o assunto:
-     Fim do Kurumin? Ainda não
+     Fim do Kurumin? Ainda nÃ£o
 
-     De tudo isso destaco a resposta dada por ele à sugestão de repassar
-     a distribuição ao desenvolvimento pela comunidade:
+     De tudo isso destaco a resposta dada por ele Ã  sugestÃ£o de repassar
+     a distribuiÃ§Ã£o ao desenvolvimento pela comunidade:
 
-     Com relação ao assunto principal, a mensagem que postei no outro
-     tópico tinha como objetivo apenas dar uma satisfação a quem
-     acompanha o sistema, não esperava que gerasse tanta repercussão. É
+     Com relaÃ§Ã£o ao assunto principal, a mensagem que postei no outro
+     tÃ³pico tinha como objetivo apenas dar uma satisfaÃ§Ã£o a quem
+     acompanha o sistema, nÃ£o esperava que gerasse tanta repercussÃ£o. Ã‰
      importante lembrar que:
 
-     a) Não é uma decisão final, ou seja, caso consiga arrumar mais
-     tempo para trabalhar no projeto posso continuá-lo por mais algumas
-     versões. Entretanto isso é uma decisão particular, que não depende
-     de comentários ou qualquer apoio externo.
+     a) NÃ£o Ã© uma decisÃ£o final, ou seja, caso consiga arrumar mais
+     tempo para trabalhar no projeto posso continuÃ¡-lo por mais algumas
+     versÃµes. Entretanto isso Ã© uma decisÃ£o particular, que nÃ£o depende
+     de comentÃ¡rios ou qualquer apoio externo.
 
-     b) Não pretendo fazer um trabalho "nas coxas", continuando apenas
-     por continuar, de forma que continuo apenas se for possível
-     produzir atualizações com uma qualidade superior à atual.
+     b) NÃ£o pretendo fazer um trabalho "nas coxas", continuando apenas
+     por continuar, de forma que continuo apenas se for possÃ­vel
+     produzir atualizaÃ§Ãµes com uma qualidade superior Ã  atual.
 
      c) Um grupo disposto a assumir o projeto seria bem-vindo, desde que
-     formado por pessoas sérias, com tempo livre suficiente e com as
-     habilidades técnicas necessárias.
+     formado por pessoas sÃ©rias, com tempo livre suficiente e com as
+     habilidades tÃ©cnicas necessÃ¡rias.
 
-     Leia o Tópico do GdH. Repito aqui a pergunta que faço em meu texto:
+     Leia o TÃ³pico do GdH. Repito aqui a pergunta que faÃ§o em meu texto:
      Alguem se habilita a continuar?"
 
-   Enviado por Max Raven (maxTHmaxraven·info) - referência
+   Enviado por Max Raven (maxTHmaxravenÂ·info) - referÃªncia
    (guiadohardware.net)..
      * Destaque
-     * Distribuições
+     * DistribuiÃ§Ãµes
 
    Indicar
      * +Rec6
      * Comentar
 
-Opções de VoIP em plataformas livres
+OpÃ§Ãµes de VoIP em plataformas livres
 
    Seg, 19/11/2007 - 10:00
 
-     "Já é possível substituir o telefone pelo PC nas ligações de longa
-     distância. As opções são muitas. Normalmente, o bate-papo por voz
-     podem ser dividido em ligações PC-para-PC e PC-para-telefone.
-     Apenas as ligações PC-para-PC são grátis, enquanto que as ligações
-     PC-para-telefone já podem ser realizadas a um preço muito baixo.
-     Neste artigo, analiso as opções da plataforma GNU/Linux de
+     "JÃ¡ Ã© possÃ­vel substituir o telefone pelo PC nas ligaÃ§Ãµes de longa
+     distÃ¢ncia. As opÃ§Ãµes sÃ£o muitas. Normalmente, o bate-papo por voz
+     podem ser dividido em ligaÃ§Ãµes PC-para-PC e PC-para-telefone.
+     Apenas as ligaÃ§Ãµes PC-para-PC sÃ£o grÃ¡tis, enquanto que as ligaÃ§Ãµes
+     PC-para-telefone jÃ¡ podem ser realizadas a um preÃ§o muito baixo.
+     Neste artigo, analiso as opÃ§Ãµes da plataforma GNU/Linux de
      bate-papo por voz com as redes MSN, Skype e GTalk, dando dicas de
-     como conversar com usuários do Windows. Também, mostro que já é
-     possível fazer ligações para telefones fixos no Brasil a um preço
-     de R$ 0,10 por ligação."
+     como conversar com usuÃ¡rios do Windows. TambÃ©m, mostro que jÃ¡ Ã©
+     possÃ­vel fazer ligaÃ§Ãµes para telefones fixos no Brasil a um preÃ§o
+     de R$ 0,10 por ligaÃ§Ã£o."
 
-   Enviado por Alex França (josealexandreTHmsn·com) - referência
+   Enviado por Alex FranÃ§a (josealexandreTHmsnÂ·com) - referÃªncia
    (alexblog.eeol.org)..
-     * Aplicações
+     * AplicaÃ§Ãµes
 
    Indicar
      * +Rec6
      * Comentar
 
-MPlayer promove inclusão digital de dispositivos com Windows Mobile
+MPlayer promove inclusÃ£o digital de dispositivos com Windows Mobile
 
    Seg, 19/11/2007 - 09:30
 
-     "O software livre de visualização de vídeo MPlayer se destaca entre
-     as demais alternativas de programas multimídia por sua
-     versatilidade, e até mesmo fãs ardorosos do software proprietário
+     "O software livre de visualizaÃ§Ã£o de vÃ­deo MPlayer se destaca entre
+     as demais alternativas de programas multimÃ­dia por sua
+     versatilidade, e atÃ© mesmo fÃ£s ardorosos do software proprietÃ¡rio
      reconhecem as suas vantagens.
 
-     Em plataformas móveis e embarcadas, esta versatilidade pode fazer
-     alguma falta, pois os players de código fechado costumam se
+     Em plataformas mÃ³veis e embarcadas, esta versatilidade pode fazer
+     alguma falta, pois os players de cÃ³digo fechado costumam se
      restringir aos formatos considerados kosher por seus produtores - o
      que ajuda a explicar a relativa popularidade do descontinuado TCPMP
      (que eu uso todos os dias no Palm).
 
-     E os usuários do Windows Mobile que se sentiam limitados pelo seu
-     Media Player nativo agora têm um motivo para acompanhar o
-     desenvolvimento do Mplayer: ele está sendo portado para esta
+     E os usuÃ¡rios do Windows Mobile que se sentiam limitados pelo seu
+     Media Player nativo agora tÃªm um motivo para acompanhar o
+     desenvolvimento do Mplayer: ele estÃ¡ sendo portado para esta
      plataforma, e assim o port para Windows em plataforma PC vai ganhar
-     companhia. É isso aí, software livre também é inclusão."
+     companhia. Ã‰ isso aÃ­, software livre tambÃ©m Ã© inclusÃ£o."
 
-   Enviado por Julio Pacheco - referência (pocketpcmag.com)..
-     * Aplicações
+   Enviado por Julio Pacheco - referÃªncia (pocketpcmag.com)..
+     * AplicaÃ§Ãµes
 
    Indicar
      * +Rec6
-     * 1 comentário
+     * 1 comentÃ¡rio
 
-Vídeo-aulas de desenho de Mozart Couto - com GIMP
+VÃ­deo-aulas de desenho de Mozart Couto - com GIMP
 
    Seg, 19/11/2007 - 09:00
 
-     "O site bigorna deu a noticia sobre vídeo-aulas de desenho de
+     "O site bigorna deu a noticia sobre vÃ­deo-aulas de desenho de
      Mozart Couto usando GIMP.
 
-     Publicamos um artigo Desenhando com a ferramenta "seleção livre" no
+     Publicamos um artigo Desenhando com a ferramenta "seleÃ§Ã£o livre" no
      Ogimp do autor, no final do artigo tem o video do artigo e o link
-     para o blog do autor que promete muito mais vídeos. São vídeos
+     para o blog do autor que promete muito mais vÃ­deos. SÃ£o vÃ­deos
      curtos mas altamente instrutivos, mesmo quem tem internet discada
-     pode acompanhar tranqüilamente.
+     pode acompanhar tranqÃ¼ilamente.
 
-     Para quem se queixava sobre falta de material sobre GIMP é uma boa
-     pedida! Mas se você pode colaborar envie seu artigo, mesmo que o
-     ache simples pois o maior nicho de usuarios na ferramenta é o
+     Para quem se queixava sobre falta de material sobre GIMP Ã© uma boa
+     pedida! Mas se vocÃª pode colaborar envie seu artigo, mesmo que o
+     ache simples pois o maior nicho de usuarios na ferramenta Ã© o
      iniciante."
 
-   Enviado por Anderson Prado (andeonbr-ogimpTHyahoo·com·br) - referência
+   Enviado por Anderson Prado (andeonbr-ogimpTHyahooÂ·comÂ·br) - referÃªncia
    (ogimp.com.br)..
-     * Aplicações
+     * AplicaÃ§Ãµes
 
    Indicar
      * +Rec6
      * Comentar
 
-Gerenciamento de atualizações : uma solução simples e eficaz
+Gerenciamento de atualizaÃ§Ãµes : uma soluÃ§Ã£o simples e eficaz
 
    Seg, 19/11/2007 - 09:00
 
      "Para aqueles, como eu, que precisam administrar dezenas de
-     servidores e mantê-los atualizados em relação a aplicação de
-     atualizações de segurança, a forma mais fácil de cumprir essa
-     tarefa seria automatizá-la ao máximo.
+     servidores e mantÃª-los atualizados em relaÃ§Ã£o a aplicaÃ§Ã£o de
+     atualizaÃ§Ãµes de seguranÃ§a, a forma mais fÃ¡cil de cumprir essa
+     tarefa seria automatizÃ¡-la ao mÃ¡ximo.
 
-     Porém, quando o assunto é aplicação 100% automatizada de novas
-     versões de pacotes de softwares em servidores de produção sem
-     intervenção humana alguma, eu tendo a ter um nível de aceitação
-     bastante baixo para essa idéia, por razões óbvias.
+     PorÃ©m, quando o assunto Ã© aplicaÃ§Ã£o 100% automatizada de novas
+     versÃµes de pacotes de softwares em servidores de produÃ§Ã£o sem
+     intervenÃ§Ã£o humana alguma, eu tendo a ter um nÃ­vel de aceitaÃ§Ã£o
+     bastante baixo para essa idÃ©ia, por razÃµes Ã³bvias.
 
-     A solução, em meu caso, foi adotar uma solução que automatiza
-     parcialmente o processo de gerenciamento de atualizações. A parte
-     que exige mais participação intelectual, ou seja, a aplicação das
-     atualizações propriamente ditas, eu mesmo prefiro executar
+     A soluÃ§Ã£o, em meu caso, foi adotar uma soluÃ§Ã£o que automatiza
+     parcialmente o processo de gerenciamento de atualizaÃ§Ãµes. A parte
+     que exige mais participaÃ§Ã£o intelectual, ou seja, a aplicaÃ§Ã£o das
+     atualizaÃ§Ãµes propriamente ditas, eu mesmo prefiro executar
      manualmente, visto que posso interferir caso qualquer problema
      maior ocorra."
 
-   Enviado por André Luís Lopes (andrelopTHandrelop·org) - referência
+   Enviado por AndrÃ© LuÃ­s Lopes (andrelopTHandrelopÂ·org) - referÃªncia
    (andrelop.org)..
-     * Administração
+     * AdministraÃ§Ã£o
 
    Indicar
      * +Rec6
@@ -246,20 +246,20 @@ I ECSL - I Encontro Cefetiano de Software Livre, em Sergipe
 
    Seg, 19/11/2007 - 08:30
 
-     "Olá a todos, estou aqui novamente para poder anunciar o I ECSL - I
-     Encontro Cefetiano de Software Livre, que irá ocorrer em Sergipe,
-     nos dias 11 e 12 de dezembro, inscrições gratuitas pelo site:
+     "OlÃ¡ a todos, estou aqui novamente para poder anunciar o I ECSL - I
+     Encontro Cefetiano de Software Livre, que irÃ¡ ocorrer em Sergipe,
+     nos dias 11 e 12 de dezembro, inscriÃ§Ãµes gratuitas pelo site:
      http://ecsl.blesshost.com.br/?q=node/4
 
-     O evento também está oferecendo um espaço de 5 palestras para
+     O evento tambÃ©m estÃ¡ oferecendo um espaÃ§o de 5 palestras para
      pessoas que estejam interessadas. Se tiver interesse use o seguinte
-     link para efetuar sua submissão de palestra:
+     link para efetuar sua submissÃ£o de palestra:
      http://ecsl.blesshost.com.br/?q=node/7
 
-     O evento irá ocorrer em Aracaju-SE, no CEFET-SE (Av. Eng. Gentil
+     O evento irÃ¡ ocorrer em Aracaju-SE, no CEFET-SE (Av. Eng. Gentil
      Tavares, 1166, Getulio Vargas). "
 
-   Enviado por Otávio Souza (aragao·otavioTHgmail·com) - referência
+   Enviado por OtÃ¡vio Souza (aragaoÂ·otavioTHgmailÂ·com) - referÃªncia
    (ecsl.blesshost.com.br)..
      * Evento
 
@@ -267,21 +267,21 @@ I ECSL - I Encontro Cefetiano de Software Livre, em Sergipe
      * +Rec6
      * Comentar
 
-João Pessoa sedia o II Encontro de Software Livre da Paraíba
+JoÃ£o Pessoa sedia o II Encontro de Software Livre da ParaÃ­ba
 
    Seg, 19/11/2007 - 08:00
 
-     "Será realizado nos dias 2, 3 e 4 de maio de 2008, no Espaço
-     Cultural José Lins do Rêgo, em João Pessoa - PB, o II Encontro
-     Software Livre da Paraíba. Nesta edição contamos com a presença já
+     "SerÃ¡ realizado nos dias 2, 3 e 4 de maio de 2008, no EspaÃ§o
+     Cultural JosÃ© Lins do RÃªgo, em JoÃ£o Pessoa - PB, o II Encontro
+     Software Livre da ParaÃ­ba. Nesta ediÃ§Ã£o contamos com a presenÃ§a jÃ¡
      confirmada de Jon "Maddog" Hall, pela primeira vez no Nordeste, e
      de Anahuac de Paula Gil.
 
      O evento tem o tema Interatividade no Extremo. Dentre os
-     macro-temas discutidos temos Ideologia, Comunidade, Segurança,
-     Governo, Educação, Negócios e Inclusão Digital e Social."
+     macro-temas discutidos temos Ideologia, Comunidade, SeguranÃ§a,
+     Governo, EducaÃ§Ã£o, NegÃ³cios e InclusÃ£o Digital e Social."
 
-   Enviado por Vítor Baptista (vitorTHvitorbaptista·com) - referência
+   Enviado por VÃ­tor Baptista (vitorTHvitorbaptistaÂ·com) - referÃªncia
    (ensol.org.br)..
      * Evento
 
@@ -289,17 +289,17 @@ João Pessoa sedia o II Encontro de Software Livre da Paraíba
      * +Rec6
      * Comentar
 
-Permissões e propriedades de arquivos e diretórios no linux
+PermissÃµes e propriedades de arquivos e diretÃ³rios no linux
 
    Seg, 19/11/2007 - 08:00
 
-     ""Inicio hoje uma série de artigos cujo tema será explicar as
-     permissões e propriedades de arquivos e diretórios no linux. Antes
-     de iniciarmos na questão das permissões, se faz necessário que
+     ""Inicio hoje uma sÃ©rie de artigos cujo tema serÃ¡ explicar as
+     permissÃµes e propriedades de arquivos e diretÃ³rios no linux. Antes
+     de iniciarmos na questÃ£o das permissÃµes, se faz necessÃ¡rio que
      tomemos conhecimento de alguns fatos, expostos no artigo."
 
    Enviado por Marcus Vinicius Bastos Leandro
-   (mvleandroTHprosadigital·com) - referência (prosadigital.com)..
+   (mvleandroTHprosadigitalÂ·com) - referÃªncia (prosadigital.com)..
      * Comunidade
 
    Indicar
@@ -311,12 +311,12 @@ BIOS, Barramentos e o Linux
    Seg, 19/11/2007 - 08:00
 
      "O Rafael Vieira,integrante do GELSoL, criou um artigo muito bom
-     sobre BIOS e barramentos do PC, e como visualizar informações deles
-     pelo Linux. Esse texto ainda faz uma introdução aos conceitos
-     básicos de entrada e saída básica. "
+     sobre BIOS e barramentos do PC, e como visualizar informaÃ§Ãµes deles
+     pelo Linux. Esse texto ainda faz uma introduÃ§Ã£o aos conceitos
+     bÃ¡sicos de entrada e saÃ­da bÃ¡sica. "
 
-   Enviado por Hélio Rodrigues de Oliveira (heliorodriguesTHlia·ufc·br) -
-   referência (gelsol.lia.ufc.br)..
+   Enviado por HÃ©lio Rodrigues de Oliveira (heliorodriguesTHliaÂ·ufcÂ·br) -
+   referÃªncia (gelsol.lia.ufc.br)..
      * Comunidade
 
    Indicar
@@ -328,55 +328,55 @@ Os primeiros testes com o "nosso" Classmate
    Dom, 18/11/2007 - 21:19
 
    Na semana passada recebemos, por cortesia da Intel, um Classmate PC
-   com o Mandriva Linux (em inglês) instalado.
+   com o Mandriva Linux (em inglÃªs) instalado.
 
-   Já pude apurar que a versão do sistema operacional instalada no
-   notebook não é a definitiva - e naturalmente a versão distribuída no
-   Brasil é em português. Além disso, os aplicativos educacionais que
-   farão parte do pacote, desenvolvidos no Brasil, não estão presentes.
+   JÃ¡ pude apurar que a versÃ£o do sistema operacional instalada no
+   notebook nÃ£o Ã© a definitiva - e naturalmente a versÃ£o distribuÃ­da no
+   Brasil Ã© em portuguÃªs. AlÃ©m disso, os aplicativos educacionais que
+   farÃ£o parte do pacote, desenvolvidos no Brasil, nÃ£o estÃ£o presentes.
 
                            [noffo-classmate.jpg]
 
    Mesmo assim, vou cumprir o protocolo de testes inicialmente proposto,
    e entregar o subnotebook para duas alunas do ensino fundamental
    explorarem durante uma semana cada uma, e depois responderem o que
-   acharam da máquina.
+   acharam da mÃ¡quina.
 
-   Por enquanto já fiz alguns testes de modo a compor minhas primeiras
-   impressões, e gostei bastante dele como estação para acesso à
-   Internet, mesmo com esta versão intermediária do software. O teclado e
-   a tela são ambos minúsculos, mas não me atrapalharam - escrevi até
+   Por enquanto jÃ¡ fiz alguns testes de modo a compor minhas primeiras
+   impressÃµes, e gostei bastante dele como estaÃ§Ã£o para acesso Ã 
+   Internet, mesmo com esta versÃ£o intermediÃ¡ria do software. O teclado e
+   a tela sÃ£o ambos minÃºsculos, mas nÃ£o me atrapalharam - escrevi atÃ©
    mesmo uma coluna para a Linux Magazine nele, usando o OOo, e postei
-   algumas notícias no BR-Linux a partir dele. A configuração da rede sem
+   algumas notÃ­cias no BR-Linux a partir dele. A configuraÃ§Ã£o da rede sem
    fio foi simples e imediata, e o Firefox simplesmente funcionou,
    incluindo plugins de uso comum, como Flash e Java. Passa com
    tranquilidade no teste do Youtube.
 
-   O teste mais interessante foi o da irmã. Minha irmã veio me visitar,
+   O teste mais interessante foi o da irmÃ£. Minha irmÃ£ veio me visitar,
    queria checar e-mail e eu passei a ela o Classmate, sem dar nenhuma
-   explicação. Ela me perguntou apenas login e senha, e quando eu
-   levantei minutos depois para mostrar a ela como usar, ela já estava
+   explicaÃ§Ã£o. Ela me perguntou apenas login e senha, e quando eu
+   levantei minutos depois para mostrar a ela como usar, ela jÃ¡ estava
    com o Gmail aberto, o Banco do Brasil em outra aba, e o Meebo em uma
    terceira.
 
    Quanto a expansibilidade, pluguei teclado e mouse USB sem dificuldade
-   nenhuma, e usei meu pen drive. Não testei nenhum outro periférico.
-   Leitores haviam perguntado sobre a presença de saída VGA para monitor
-   externo, mas o Classmate não a tem. Mas o seu primo Eee PC tem.
+   nenhuma, e usei meu pen drive. NÃ£o testei nenhum outro perifÃ©rico.
+   Leitores haviam perguntado sobre a presenÃ§a de saÃ­da VGA para monitor
+   externo, mas o Classmate nÃ£o a tem. Mas o seu primo Eee PC tem.
 
-   Ouvi MP3 sem nenhum problema, e vi vídeos via Youtube. Mas todos os 4
-   vídeos que eu tinha no meu pen drive (MPEG e AVI) e testei não foram
+   Ouvi MP3 sem nenhum problema, e vi vÃ­deos via Youtube. Mas todos os 4
+   vÃ­deos que eu tinha no meu pen drive (MPEG e AVI) e testei nÃ£o foram
    exibidos. Isso mesmo, 0% de sucesso quanto a eles - embora as
-   respectivas trilhas de áudio tenham sido tocadas. Provavelmente é
-   configurável, mas isso fugiria ao meu escopo de teste.
+   respectivas trilhas de Ã¡udio tenham sido tocadas. Provavelmente Ã©
+   configurÃ¡vel, mas isso fugiria ao meu escopo de teste.
 
-   Houve também algumas perguntas sobre a possibilidade de boot por
-   dispositivo externo e pela rede. Ambas as opções estão disponíveis na
-   BIOS. Para quem não quiser dar boot pelo sistema operacional
-   instalado, a BIOS tem opção de boot pela USB ou pelo "Realtek Boot
+   Houve tambÃ©m algumas perguntas sobre a possibilidade de boot por
+   dispositivo externo e pela rede. Ambas as opÃ§Ãµes estÃ£o disponÃ­veis na
+   BIOS. Para quem nÃ£o quiser dar boot pelo sistema operacional
+   instalado, a BIOS tem opÃ§Ã£o de boot pela USB ou pelo "Realtek Boot
    Agent", via rede.
 
-   Em breve trarei mais informações, quando as testadoras oficiais
+   Em breve trarei mais informaÃ§Ãµes, quando as testadoras oficiais
    devolverem o equipamento!
 
    Saiba mais (br-linux.org).
@@ -386,103 +386,103 @@ Os primeiros testes com o "nosso" Classmate
 
    Indicar
      * +Rec6
-     * 3 comentários
+     * 3 comentÃ¡rios
 
 A semana no BR-Linux: 11 anos de BR-Linux!
 
    Dom, 18/11/2007 - 15:41
 
-   Feliz aniversário, BR-Linux! Na última quinta-feira, o BR-Linux
-   comemorou seu 11º aniversário. Parabéns a todos que contribuem para o
-   sucesso do site, e obrigado por toda a colaboração, atenção e
-   participação!
+   Feliz aniversÃ¡rio, BR-Linux! Na Ãºltima quinta-feira, o BR-Linux
+   comemorou seu 11Âº aniversÃ¡rio. ParabÃ©ns a todos que contribuem para o
+   sucesso do site, e obrigado por toda a colaboraÃ§Ã£o, atenÃ§Ã£o e
+   participaÃ§Ã£o!
 
-   Para comemorar, no próximo final de semana estaremos dando início à
-   votação dos Favoritos da Comunidade Linux Brasileira, edição 2007 -
-   com o grande sorteio de brindes, como já é tradição ;-)
+   Para comemorar, no prÃ³ximo final de semana estaremos dando inÃ­cio Ã 
+   votaÃ§Ã£o dos Favoritos da Comunidade Linux Brasileira, ediÃ§Ã£o 2007 -
+   com o grande sorteio de brindes, como jÃ¡ Ã© tradiÃ§Ã£o ;-)
 
-   Vamos às notícias que mais chamaram atenção do público durante a
-   semana do aniversário:
+   Vamos Ã s notÃ­cias que mais chamaram atenÃ§Ã£o do pÃºblico durante a
+   semana do aniversÃ¡rio:
 
-   Kurumin Linux: haverá uma próxima versão? - Carlos Morimoto divulgou
+   Kurumin Linux: haverÃ¡ uma prÃ³xima versÃ£o? - Carlos Morimoto divulgou
    estar considerando interromper ou mudar o foco do Kurumin Linux.
 
-   Desafio da Google valendo de US$10 milhões: desenvolva um aplicativo
-   para o Android! - Programadores para plataformas embarcadas ou móveis,
-   podem começar a se preparar.
+   Desafio da Google valendo de US$10 milhÃµes: desenvolva um aplicativo
+   para o Android! - Programadores para plataformas embarcadas ou mÃ³veis,
+   podem comeÃ§ar a se preparar.
 
                              android-noel.jpg 
 
-   Ainda não é o Gphone, mas... - "O blog do Google Brasil anunciou
-   oficialmente na véspera do feriado o Android, que, segundo eles, "é a
+   Ainda nÃ£o Ã© o Gphone, mas... - "O blog do Google Brasil anunciou
+   oficialmente na vÃ©spera do feriado o Android, que, segundo eles, "Ã© a
    primeira plataforma para celular verdadeiramente aberta.
 
                              [gil-stallman.jpg]
                   "Tropa de Elite, osso duro de roer ..."
 
-   Gil, o ministro hacker, tem uma solução para reduzir violência em
-   favelas - Que outro país tem um ministro de Estado que se declara
-   hacker e é autor de uma obra sobre a Internet?
+   Gil, o ministro hacker, tem uma soluÃ§Ã£o para reduzir violÃªncia em
+   favelas - Que outro paÃ­s tem um ministro de Estado que se declara
+   hacker e Ã© autor de uma obra sobre a Internet?
 
    OpenDocument Foundation fecha as portas - tchau! - O Slashdot informou
-   que a OpenDocument Foundation - a mesma que recentemente se esforçou
+   que a OpenDocument Foundation - a mesma que recentemente se esforÃ§ou
    para fazer um barulho danado sobre abandonar seu (parco) suporte ao
    ODF - fechou as portas.
 
                               eee_pc-easy.jpg
 
-   11 anos de BR-Linux: Já podemos torcer pelo "nosso" (talvez "seu") Eee
-   PC - "Amanhã o BR-Linux faz 11 anos, e ainda estou recebendo as suas
-   sugestões para a eleição dos Favoritos de 2007, que servirá para
-   marcar o aniversário."
+   11 anos de BR-Linux: JÃ¡ podemos torcer pelo "nosso" (talvez "seu") Eee
+   PC - "AmanhÃ£ o BR-Linux faz 11 anos, e ainda estou recebendo as suas
+   sugestÃµes para a eleiÃ§Ã£o dos Favoritos de 2007, que servirÃ¡ para
+   marcar o aniversÃ¡rio."
 
                                eee-newegg.jpg
 
-   11 anos de BR-Linux - parabéns! - e mais sobre o "nosso" Eee PC -
+   11 anos de BR-Linux - parabÃ©ns! - e mais sobre o "nosso" Eee PC -
    Quase garantido!
 
-   Fedora 8: 54.000 downloads em 3 dias - "Distribuição foca na
-   customização, portabilidade e inovações técnicas.
+   Fedora 8: 54.000 downloads em 3 dias - "DistribuiÃ§Ã£o foca na
+   customizaÃ§Ã£o, portabilidade e inovaÃ§Ãµes tÃ©cnicas.
 
                              evergreen-gpc.jpg
 
-   Sucesso de público: Esgota o Computador para Todos norte-americano com
-   gOS - Por lá, o PC popular com Linux esgota em uma semana, e recebe
-   análises positivas. Qual o segredo?
+   Sucesso de pÃºblico: Esgota o Computador para Todos norte-americano com
+   gOS - Por lÃ¡, o PC popular com Linux esgota em uma semana, e recebe
+   anÃ¡lises positivas. Qual o segredo?
 
                               blue_fedora.png
 
-   Lançado o Fedora 8 Werewolf - Já está disponível para download o
+   LanÃ§ado o Fedora 8 Werewolf - JÃ¡ estÃ¡ disponÃ­vel para download o
    Fedora 8 Werewolf.
 
                            lj-cover163.small.png
 
-   Download da revista: Edição grátis do Linux Journal - "A versão
-   digital da edição deste mês da Linux Journal está sendo
-   disponibilizada gratuitamente no site, bastando informar um endereço
+   Download da revista: EdiÃ§Ã£o grÃ¡tis do Linux Journal - "A versÃ£o
+   digital da ediÃ§Ã£o deste mÃªs da Linux Journal estÃ¡ sendo
+   disponibilizada gratuitamente no site, bastando informar um endereÃ§o
    de e-mail para receber o link para download.
 
    Ubuntu pode emplacar nos servidores Dell em 2008 - O primeiro grande
-   avanço do Ubuntu nos servidores?
+   avanÃ§o do Ubuntu nos servidores?
 
-   Com US$ 399 você pode encomendar seu laptop de US$ 100 do OLPC hoje
-   mesmo! - O primeiro passo é se mudar para os EUA ou o Canadá.
+   Com US$ 399 vocÃª pode encomendar seu laptop de US$ 100 do OLPC hoje
+   mesmo! - O primeiro passo Ã© se mudar para os EUA ou o CanadÃ¡.
 
    Dataprev disponibiliza o programa Cocar - "A Dataprev (Empresa de
-   Tecnologia e Informações da Previdência Social) disponibilizou para
-   download, no Portal do Software Público Brasileiro
+   Tecnologia e InformaÃ§Ãµes da PrevidÃªncia Social) disponibilizou para
+   download, no Portal do Software PÃºblico Brasileiro
    (www.softwarepublico.gov.br), o programa Cocar, um sistema de
-   administração de redes de computadores que permite monitorar o tráfego
-   entre as máquinas de forma centralizada.
+   administraÃ§Ã£o de redes de computadores que permite monitorar o trÃ¡fego
+   entre as mÃ¡quinas de forma centralizada.
 
    E mais:
      * A portaria da sua empresa tem PC rodando Linux? 
      * aMSN: MSN com webcam e winks no Linux 
      * Para que servem as redes mesh do OLPC? 
-     * Info testa o Eee PC que será vendido no Brasil 
-     * gOS: screenshots e download do (não-)Google OS 
-     * Irônico plágio contra a Wikipédia 
-     * VNC fácil no Ubuntu 
+     * Info testa o Eee PC que serÃ¡ vendido no Brasil 
+     * gOS: screenshots e download do (nÃ£o-)Google OS 
+     * IrÃ´nico plÃ¡gio contra a WikipÃ©dia 
+     * VNC fÃ¡cil no Ubuntu 
      * Saiu o Google Phone - ou quase. E roda Linux! 
 
      * Destaque
@@ -493,33 +493,33 @@ A semana no BR-Linux: 11 anos de BR-Linux!
      * +Rec6
      * Comentar
 
-   123456789...next >last »
+   123456789...next >last Â»
      * BR-Linux
 
    Indicar
    Permalink
      * +Rec6
 
-Notícias anteriores
+NotÃ­cias anteriores
 
      * Mais sobre o Ubuntu Mobile and Embedded (17/11, 19:39)
      * Relatos do Latinoware 2007 (17/11, 15:34)
-     * Ainda não é o Gphone, mas... (16/11, 11:30)
+     * Ainda nÃ£o Ã© o Gphone, mas... (16/11, 11:30)
      * Dataprev disponibiliza o programa Cocar (16/11, 11:00)
      * Ubuntu pode emplacar nos servidores Dell em 2008 (16/11, 11:00)
-     * Sucesso de público: Esgota o Computador para Todos norte-americano
+     * Sucesso de pÃºblico: Esgota o Computador para Todos norte-americano
        com gOS (16/11, 10:30)
      * Para que servem as redes mesh do OLPC? (16/11, 10:00)
-     * Oracle anuncia que sua distribuição de Linux alcançou 1.500
+     * Oracle anuncia que sua distribuiÃ§Ã£o de Linux alcanÃ§ou 1.500
        empresas (16/11, 09:30)
-     * Novas versões de Zope e Plone são apresentadas em São Paulo
+     * Novas versÃµes de Zope e Plone sÃ£o apresentadas em SÃ£o Paulo
        (16/11, 08:00)
-     * 11 anos de BR-Linux - parabéns! - e mais sobre o "nosso" Eee PC
+     * 11 anos de BR-Linux - parabÃ©ns! - e mais sobre o "nosso" Eee PC
        (15/11, 17:47)
 
    Google 
    Digite os termos da sua pesquisa __________________
-   (_) Web (_) br-linux.org Enviar formulário de pesquisa Pesquisar
+   (_) Web (_) br-linux.org Enviar formulÃ¡rio de pesquisa Pesquisar
 
 Publicidade*
 
@@ -527,22 +527,22 @@ Publicidade*
 
                              Green Treinamento 
 
-   A GREEN é uma empresa de Treinamento há 18 anos no mercado e já
+   A GREEN Ã© uma empresa de Treinamento hÃ¡ 18 anos no mercado e jÃ¡
    treinou mais de 135.000 alunos.
    Diferenciais:
-   - A Distribuição usada nos cursos é a Debian
-   - Apostilas em português com referência a outras distribuições
-   - Turmas com máximo de 16 alunos.
+   - A DistribuiÃ§Ã£o usada nos cursos Ã© a Debian
+   - Apostilas em portuguÃªs com referÃªncia a outras distribuiÃ§Ãµes
+   - Turmas com mÃ¡ximo de 16 alunos.
    - Instrutores certificados LPI
-   - Localização privilegiada em frente ao Metrô Brigadeiro
+   - LocalizaÃ§Ã£o privilegiada em frente ao MetrÃ´ Brigadeiro
 
    Anuncie no BR-Linux 
 
 Anunciantes e patrocinadores
 
    Hospedagem de sites
-   Hospede seu blog no Dreamhost! Acesso shell, 5TB de transferência
-   mensal e 500GB de armazenamento. Wordpress fácil e 1 domínio grátis.
+   Hospede seu blog no Dreamhost! Acesso shell, 5TB de transferÃªncia
+   mensal e 500GB de armazenamento. Wordpress fÃ¡cil e 1 domÃ­nio grÃ¡tis.
    (com desconto do BR-Linux)
 
                             Treinamento Plone 3
@@ -558,7 +558,7 @@ Anunciantes e patrocinadores
                                  Fortaleza
                                 Computadores
                                  Notebooks
-                              Planos de saúde
+                              Planos de saÃºde
                             latinoware-2007.gif 
 
    efetividade.net
@@ -568,29 +568,29 @@ Anunciantes e patrocinadores
 
                                   Floripa
 
-   Poeira Cósmica
-   Não acredite em tudo que você lê!
-   (e leia sempre o rodapé...)
+   Poeira CÃ³smica
+   NÃ£o acredite em tudo que vocÃª lÃª!
+   (e leia sempre o rodapÃ©...)
 
 
 
 Efetividade.net
 
-     * Muitas pendências? Que tal acabar com elas ao longo dessa semana?
+     * Muitas pendÃªncias? Que tal acabar com elas ao longo dessa semana?
      * Semana da Produtividade Pessoal no Efetividade.net
      * Economizar: Como reduzi 30% da minha conta de energia mensal em 1
        segundo
      * Ressaca: como sobreviver ao dia seguinte
-     * Fim de ano: Estamos na metade de novembro. Você já está preparando
+     * Fim de ano: Estamos na metade de novembro. VocÃª jÃ¡ estÃ¡ preparando
        o fluxo de caixa?
 
    mais
 
 Rec6 Tecnologia
 
-     * Tire suas dúvidas sobre a TV Digital [6 votos]
+     * Tire suas dÃºvidas sobre a TV Digital [6 votos]
      * Firefox 3.0 Beta I [5 votos]
-     * Linux vs Windows - Nova estratégia da Microsoft não colou. [6
+     * Linux vs Windows - Nova estratÃ©gia da Microsoft nÃ£o colou. [6
        votos]
      * Enviar email no Visual Basic por Winsock -- FD Web [6 votos]
      * PortableApps.com Suite 1.0, torne seu pen-drive funcional [10
@@ -604,46 +604,46 @@ Meio Bit
      * Pegaram Bill Gates pra cristo
      * Chupem, xiitas, Mplayer portado para Windows Mobile
      * Melhorando o Windows XP
-     * Ghostbusters vem aí!
+     * Ghostbusters vem aÃ­!
 
    mais
 
    [banner-linuxsec2.gif] 
    [temporeal1.jpg] 
-   Visite sempre múltiplos sites para formar sua opinião, pois os pontos
-   de vista e os focos de cobertura podem variar bastante. Conheça nossa
+   Visite sempre mÃºltiplos sites para formar sua opiniÃ£o, pois os pontos
+   de vista e os focos de cobertura podem variar bastante. ConheÃ§a nossa
    lista de outros sites da comunidade!
 
 RSS e mais
 
                               [rss-icon.png] 
-                                  Notícias
+                                  NotÃ­cias
 
                               [rss-icon.png] 
-                          Comentários selecionados
+                          ComentÃ¡rios selecionados
                assinar com google reader ou google frontpage 
                               Sobre o BR-Linux
                                   Contato
                                  Newsletter
 
-   Veja como é fácil inserir as manchetes do BR-Linux na barra lateral do
+   Veja como Ã© fÃ¡cil inserir as manchetes do BR-Linux na barra lateral do
                              seu site ou blog.
 
    BR-Linux.org
-          Linux® levado a sério desde 1996. Notícias, dicas e tutoriais
-          em bom português sobre Linux e Código Aberto. "A página sobre
+          LinuxÂ® levado a sÃ©rio desde 1996. NotÃ­cias, dicas e tutoriais
+          em bom portuguÃªs sobre Linux e CÃ³digo Aberto. "A pÃ¡gina sobre
           software livre mais procurada no Brasil", segundo a Revista
-          Isto É.
+          Isto Ã‰.
 
    Expediente
           Sobre o BR-Linux
-          Enviar notícia ou release
+          Enviar notÃ­cia ou release
           Contato, Termos de uso
           FAQ, Newsletter, RSS
           Banners e selos
           Anunciar no BR-Linux
 
-   BR-Linux apóia
+   BR-Linux apÃ³ia
           LinuxSecurity, Tempo Real
           Suporte Livre, Drupal
           Verdade Absoluta
@@ -652,22 +652,22 @@ RSS e mais
           sites da comunidade
 
    Ajuda
-          Moderação
-          Flames: não responda!
+          ModeraÃ§Ã£o
+          Flames: nÃ£o responda!
           Publicar seu texto
           Computador para Todos
-          Notícias pré-2004
-          Tutoriais, HCL pré-2004
+          NotÃ­cias prÃ©-2004
+          Tutoriais, HCL prÃ©-2004
 
-   © Augusto Campos. Conteúdo disponível sob a licença livre FDL.
+   Â© Augusto Campos. ConteÃºdo disponÃ­vel sob a licenÃ§a livre FDL.
    Consulte os termos de uso.
 
-   Linux é marca registrada de Linus Torvalds. Os direitos autorais de
-   todas as ilustrações pertencem aos respectivos autores, e elas são
-   reproduzidas na intenção de atender ao disposto no art. 46 da Lei
+   Linux Ã© marca registrada de Linus Torvalds. Os direitos autorais de
+   todas as ilustraÃ§Ãµes pertencem aos respectivos autores, e elas sÃ£o
+   reproduzidas na intenÃ§Ã£o de atender ao disposto no art. 46 da Lei
    9.610 - se ainda assim alguma delas infringe direito seu, entre em
-   contato para que possamos removê-la imediatamente. O logo do pingüim
-   de óculos é de autoria original do projeto PocketLinux, já extinto. O
-   conteúdo textual original desta página está disponível sob a licença
+   contato para que possamos removÃª-la imediatamente. O logo do pingÃ¼im
+   de Ã³culos Ã© de autoria original do projeto PocketLinux, jÃ¡ extinto. O
+   conteÃºdo textual original desta pÃ¡gina estÃ¡ disponÃ­vel sob a licenÃ§a
    GNU FDL 1.2. Leia os Termos de Uso para saber mais detalhes -
-   inclusive sobre a política em relação aos comentários dos leitores.
+   inclusive sobre a polÃ­tica em relaÃ§Ã£o aos comentÃ¡rios dos leitores.

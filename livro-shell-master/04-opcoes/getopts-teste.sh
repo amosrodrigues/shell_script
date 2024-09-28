@@ -1,31 +1,31 @@
 #!/bin/bash
 # getopts-teste.sh
 #
-# AurÈlio, Novembro de 2007
+# Aur√©lio, Novembro de 2007
 
-# Loop que processa todas as opÁıes da linha de comando.
-# AtenÁ„o ao formato das opÁıes v·lidas ":sa:"
-# - Os dois-pontos do inÌcio ligam o modo silencioso
-# - As opÁıes v·lidas s„o 'sa:', que s„o -s e -a
+# Loop que processa todas as op√ß√µes da linha de comando.
+# Aten√ß√£o ao formato das op√ß√µes v√°lidas ":sa:"
+# - Os dois-pontos do in√≠cio ligam o modo silencioso
+# - As op√ß√µes v√°lidas s√£o 'sa:', que s√£o -s e -a
 # - Os dois-pontos de 'a:' representam um argumento: -a FOO
 #
 while getopts ":sa:" opcao
 do
-	# $opcao guarda a opÁ„o da vez (ou ? e : em caso de erro)
-	# $OPTARG guarda o argumento da opÁ„o (se houver)
+	# $opcao guarda a op√ß√£o da vez (ou ? e : em caso de erro)
+	# $OPTARG guarda o argumento da op√ß√£o (se houver)
 	#
 	case $opcao in
-		 s) echo "OK OpÁ„o simples (-s)";;
-		 a) echo "OK OpÁ„o com argumento (-a), recebeu: $OPTARG";;
-		\?) echo "ERRO OpÁ„o inv·lida: $OPTARG";;
+		 s) echo "OK Op√ß√£o simples (-s)";;
+		 a) echo "OK Op√ß√£o com argumento (-a), recebeu: $OPTARG";;
+		\?) echo "ERRO Op√ß√£o inv√°lida: $OPTARG";;
 		 :) echo "ERRO Faltou argumento para: $OPTARG";;
 	esac
 done
 
-# O loop termina quando nenhuma opÁ„o for encontrada.
+# O loop termina quando nenhuma op√ß√£o for encontrada.
 # Mas ainda podem existir argumentos, como um nome de arquivo.
-# A vari·vel $OPTIND guarda o Ìndice do resto da linha de
-# comando, ˙til para arrancar as opÁıes j· processadas.
+# A vari√°vel $OPTIND guarda o √≠ndice do resto da linha de
+# comando, √∫til para arrancar as op√ß√µes j√° processadas.
 #
 echo
 shift $((OPTIND - 1))

@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# seq.sh - Emula��o do comando seq em Bash, por Aur�lio M. Jargas
+# seq.sh - EmulaÃ§Ã£o do comando seq em Bash, por AurÃ©lio M. Jargas
 #
-# O comando seq recebe dois n�meros e mostra na sa�da padr�o todos os n�meros
-# existentes entre eles, inclusive. Essa seq��ncia est� pronta para ser usada
-# pelo comando FOR. Caso omitido o n�mero inicial, � utilizado o 1.
+# O comando seq recebe dois nÃºmeros e mostra na saÃ­da padrÃ£o todos os nÃºmeros
+# existentes entre eles, inclusive. Essa seqÃ¼Ãªncia estÃ¡ pronta para ser usada
+# pelo comando FOR. Caso omitido o nÃºmero inicial, Ã© utilizado o 1.
 #
 #       Exemplo 1            Exemplo 2            Exemplo 3
 #

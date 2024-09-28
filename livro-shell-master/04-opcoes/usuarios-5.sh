@@ -1,31 +1,31 @@
 #!/bin/bash
 # usuarios.sh
 #
-# Mostra os logins e nomes de usu·rios do sistema
-# Obs.: LÍ dados do arquivo /etc/passwd
+# Mostra os logins e nomes de usu√°rios do sistema
+# Obs.: L√™ dados do arquivo /etc/passwd
 #
-# Vers„o 1: Mostra usu·rios e nomes separados por TAB
-# Vers„o 2: Adicionado suporte ‡ opÁ„o -h
-# Vers„o 3: Adicionado suporte ‡ opÁ„o -V e opÁıes inv·lidas
-# Vers„o 4: Arrumado bug quando n„o tem opÁıes, basename no
-#           nome do programa, -V extraindo direto dos cabeÁalhos,
-#           adicionadas opÁıes --help e --version
-# Vers„o 5: Adicionadas opÁıes -s e --sort
+# Vers√£o 1: Mostra usu√°rios e nomes separados por TAB
+# Vers√£o 2: Adicionado suporte √† op√ß√£o -h
+# Vers√£o 3: Adicionado suporte √† op√ß√£o -V e op√ß√µes inv√°lidas
+# Vers√£o 4: Arrumado bug quando n√£o tem op√ß√µes, basename no
+#           nome do programa, -V extraindo direto dos cabe√ßalhos,
+#           adicionadas op√ß√µes --help e --version
+# Vers√£o 5: Adicionadas op√ß√µes -s e --sort
 #
-# AurÈlio, Novembro de 2007
+# Aur√©lio, Novembro de 2007
 #
 
-ordenar=0           # A saÌda dever· ser ordenada?
+ordenar=0           # A sa√≠da dever√° ser ordenada?
 
 MENSAGEM_USO="
 Uso: $(basename "$0") [-h | -V | -s]
 
   -s, --sort        Ordena a listagem alfabeticamente
   -h, --help        Mostra esta tela de ajuda e sai
-  -V, --version     Mostra a vers„o do programa e sai
+  -V, --version     Mostra a vers√£o do programa e sai
 "
 
-# Tratamento das opÁıes de linha de comando
+# Tratamento das op√ß√µes de linha de comando
 case "$1" in
 
 	-s | --sort)
@@ -39,15 +39,15 @@ case "$1" in
 
 	-V | --version)
 		echo -n $(basename "$0")
-		# Extrai a vers„o diretamente dos cabeÁalhos do programa
-		grep '^# Vers„o ' "$0" | tail -1 | cut -d : -f 1 | tr -d \#
+		# Extrai a vers√£o diretamente dos cabe√ßalhos do programa
+		grep '^# Vers√£o ' "$0" | tail -1 | cut -d : -f 1 | tr -d \#
 		exit 0
 	;;
 
 	*)
 		if test -n "$1"
 		then
-			echo OpÁ„o inv·lida: $1
+			echo Op√ß√£o inv√°lida: $1
 			exit 1
 		fi
 	;;
@@ -56,11 +56,11 @@ esac
 # Extrai a listagem
 lista=$(cut -d : -f 1,5 /etc/passwd)
 
-# Ordena a listagem (se necess·rio)
+# Ordena a listagem (se necess√°rio)
 if test "$ordenar" = 1
 then
  	lista=$(echo "$lista" | sort)
 fi
 
-# Mostra o resultado para o usu·rio
+# Mostra o resultado para o usu√°rio
 echo "$lista" | tr : \\t

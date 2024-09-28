@@ -1,19 +1,19 @@
-Shell Script Básico
+Shell Script BÃ¡sico
 ===================
 
-Se você está estudando o shell básico, eu tenho um único conselho:
+Se vocÃª estÃ¡ estudando o shell bÃ¡sico, eu tenho um Ãºnico conselho:
 
-**NÃO VEJA AS RESPOSTAS DOS EXERCÍCIOS!**
+**NÃO VEJA AS RESPOSTAS DOS EXERCÃCIOS!**
 
-Primeiro tente fazê-los você mesmo, consulte o livro, leia man pages,
-arrisque na linha de comando. Não desista.
+Primeiro tente fazÃª-los vocÃª mesmo, consulte o livro, leia man pages,
+arrisque na linha de comando. NÃ£o desista.
 
-Só veja a resposta de algum exercício caso você já tenha conseguido
-fazê-lo, para poder comparar a sua resposta com a do livro.
+SÃ³ veja a resposta de algum exercÃ­cio caso vocÃª jÃ¡ tenha conseguido
+fazÃª-lo, para poder comparar a sua resposta com a do livro.
 
-Se elas forem diferentes, não se preocupe. Não há certo ou errado, há
-programas que funcionam e programas que não funcionam. O importante é
-que seu programa faça o que o exercício pediu.
+Se elas forem diferentes, nÃ£o se preocupe. NÃ£o hÃ¡ certo ou errado, hÃ¡
+programas que funcionam e programas que nÃ£o funcionam. O importante Ã©
+que seu programa faÃ§a o que o exercÃ­cio pediu.
 
-Lembre-se: Ver a resposta sem tentar fazer é para os fracos :)
+Lembre-se: Ver a resposta sem tentar fazer Ã© para os fracos :)
 

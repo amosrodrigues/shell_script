@@ -117,8 +117,8 @@ PopUp "Window Ops"
   Title      "janela"
   Function   "mo&ver"   Move-or-Raise
   Function   "&tamanho" Resize-or-Raise
-  Raise      "&1º plano"
-  Lower      "&2º plano"
+  Raise      "&1Âº plano"
+  Lower      "&2Âº plano"
   Maximize   "(&max)minimizar"
   Nop        ""
   Destroy    "&destruir"
@@ -175,7 +175,7 @@ DeskTopSize        2x2
 *FvwmPagerHilight  Black
 
 
-# keyboard as mouse - thanks Thomas Köhler ----------------------------
+# keyboard as mouse - thanks Thomas KÃ¶hler ----------------------------
 # 1/10 of a page: arrow + control
 Key Left	A	C	CursorMove -10  +0
 Key Right	A	C	CursorMove +10  +0

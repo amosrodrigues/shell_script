@@ -1,8 +1,8 @@
 dialog                                      \
-   --title 'Seleção dos Componentes'        \
-   --checklist 'O que você quer instalar?'  \
+   --title 'SeleÃ§Ã£o dos Componentes'        \
+   --checklist 'O que vocÃª quer instalar?'  \
    0 0 0                                    \
    syntax  'Arquivos de sintaxe'      on    \
    mouse   'Suporte a mouse'          off   \
    color   'Suporte a cores'          on    \
-   beep    'Driver avançado de som'   off
+   beep    'Driver avanÃ§ado de som'   off
