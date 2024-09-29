@@ -1,4 +1,0 @@
-dialog                          \
-   --title 'Dados Pessoais'     \
-   --inputbox 'Nome completo:'  \
-   0 0
