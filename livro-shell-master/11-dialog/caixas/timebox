@@ -1,5 +1,0 @@
-dialog                                        \
-   --title 'Ajuste o Relógio'                 \
-   --timebox '\nDICA: Use as setas e o TAB.'  \
-   0 0                                        \
-   23 59 30
